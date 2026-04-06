@@ -1,284 +1,1005 @@
 ---
-import '../app.css';
+import "../app.css"
+
 ---
-<!DOCTYPE html>
-<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <title>Terrenos en Venta en Aysén | Parcelas, Lotes y Campos - Patagonia Chilena</title>
-  <meta name="description" content="Terrenos en venta en la Región de Aysén. Parcelas, lotes urbanos, campos agrícolas y terrenos rurales con títulos verificados. Asesoría legal incluida." />
-  <link rel="canonical" href="https://terrenosenaysen.cl/" />
-  <meta property="og:title" content="Terrenos en Venta en Aysén | Parcelas, Lotes y Campos - Patagonia Chilena" />
-  <meta property="og:description" content="Terrenos en venta en la Región de Aysén. Parcelas, lotes urbanos, campos agrícolas y terrenos rurales con títulos verificados. Asesoría legal incluida." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://terrenosenaysen.cl/" />
-  <meta property="og:locale" content="es_CL" />
-  <meta property="og:site_name" content="Terrenos en Aysén" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"RealEstateAgent","name":"Terrenos en Aysén SpA","url":"https://terrenosenaysen.cl","telephone":"+56 9 8765 4321","email":"info@terrenosenaysen.cl","address":{"@type":"PostalAddress","streetAddress":"Av. Libertador Bernardo O'Higgins 345","addressLocality":"Coyhaique","addressRegion":"Aysén","postalCode":"5950000","addressCountry":"CL"},"geo":{"@type":"GeoCoordinates","latitude":-45.5714,"longitude":-72.0682},"openingHoursSpecification":"Mo-Fr 09:00-19:00, Sa 10:00-14:00","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"156"},"areaServed":{"@type":"City","name":"Aysén"},"priceRange":"$15M - $1.5B CLP"}</script>
+
+  <title>Propiedades en la Patagonia Chilena | Terrenos en Aysén</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="El portal inmobiliario más completo de la Región de Aysén. Encuentra casas, parcelas, terrenos, campos y más propiedades en venta en la Carretera Austral, Patagonia Chilena.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://terrenosenaysen.cl/">
+  <meta property="og:title" content="Propiedades en la Patagonia Chilena | Terrenos en Aysén">
+  <meta property="og:description" content="El portal inmobiliario más completo de la Región de Aysén. Encuentra casas, parcelas, terrenos, campos y más propiedades en venta en la Carretera Austral, Patagonia Chilena.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://terrenosenaysen.cl/">
+  <meta property="og:image" content="https://og-image.vercel.app/Propiedades%20en%20la%20Patagonia%20Chilena%20%7C%20Terrenos%20en%20Ays%C3%A9n.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fterrenosenaysen.cl%2Ffavicon.svg">
+  <meta property="og:site_name" content="Terrenos en Aysén">
+  <meta property="og:locale" content="es_CL">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Propiedades en la Patagonia Chilena | Terrenos en Aysén">
+  <meta name="twitter:description" content="El portal inmobiliario más completo de la Región de Aysén. Encuentra casas, parcelas, terrenos, campos y más propiedades en venta en la Carretera Austral, Patagonia Chilena.">
+  <meta name="twitter:image" content="https://og-image.vercel.app/Propiedades%20en%20la%20Patagonia%20Chilena%20%7C%20Terrenos%20en%20Ays%C3%A9n.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fterrenosenaysen.cl%2Ffavicon.svg">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://terrenosenaysen.cl/#website","name":"Terrenos en Aysén","url":"https://terrenosenaysen.cl","description":"El portal inmobiliario más completo de la Región de Aysén. Encuentra casas, parcelas, terrenos, campos y más propiedades en venta en la Carretera Austral, Patagonia Chilena.","inLanguage":"es","potentialAction":{"@type":"SearchAction","target":"https://terrenosenaysen.cl/venta/?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"RealEstateAgent","name":"Terrenos en Aysén","url":"https://terrenosenaysen.cl","telephone":"+56 9 8765 4321","email":"info@terrenosenaysen.cl","address":{"@type":"PostalAddress","streetAddress":"Av. Arturo Prat 456","addressLocality":"Coyhaique","addressRegion":"Aysén","addressCountry":"CL"},"areaServed":{"@type":"GeoCircle","geoMidpoint":{"@type":"GeoCoordinates","latitude":-45.5,"longitude":-72},"geoRadius":"200000"}}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=DM+Serif+Display&display=swap" rel="stylesheet">
 </head>
-<body class="min-h-screen flex flex-col bg-white text-gray-900">
-  <header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-16">
-      <a href="/" class="flex items-center gap-2 no-underline">
-        <div class="w-9 h-9 bg-[#166534] rounded-lg flex items-center justify-center">
-          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21V9l9-6 9 6v12a1 1 0 01-1 1h-5a1 1 0 01-1-1v-4a1 1 0 00-1-1h-2a1 1 0 00-1 1v4a1 1 0 01-1 1H4a1 1 0 01-1-1z"/></svg>
-        </div>
-        <div>
-          <span class="font-bold text-sm text-[#166534] block leading-tight">Terrenos en Aysén</span>
-          <span class="text-xs text-[#EAB308] block leading-tight">Patagonia Chilena</span>
-        </div>
+<body class="flex min-h-screen flex-col bg-stone-50 text-stone-900 antialiased">
+<header class="sticky top-0 z-50 w-full border-b border-stone-200/60 bg-white/80 backdrop-blur-xl backdrop-saturate-150 transition-shadow duration-300" id="site-header">
+  <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 lg:px-8">
+    <a href="/" class="group flex items-center gap-2.5">
+      <div class="flex size-9 items-center justify-center rounded-lg bg-emerald-800 transition-colors group-hover:bg-emerald-700">
+        <svg class="size-5 text-emerald-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m8 3 4 8 5-5 5 15H2z"/></svg>
+      </div>
+      <div class="flex flex-col">
+        <span class="font-display text-lg leading-none tracking-tight text-emerald-900">Terrenos en Aysén</span>
+        <span class="text-[10px] font-medium uppercase tracking-[0.2em] text-stone-400">Patagonia Chile</span>
+      </div>
+    </a>
+    <nav class="hidden items-center gap-1 lg:flex">
+      <a href="/venta/" class="rounded-lg px-3.5 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-emerald-50 hover:text-emerald-800">Venta</a>
+      <a href="/localidades/" class="rounded-lg px-3.5 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-emerald-50 hover:text-emerald-800">Localidades</a>
+      <a href="/guia/" class="rounded-lg px-3.5 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-emerald-50 hover:text-emerald-800">Guías</a>
+      <a href="/blog/" class="rounded-lg px-3.5 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-emerald-50 hover:text-emerald-800">Blog</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="/publicar-propiedad/" class="hidden items-center gap-2 rounded-lg bg-emerald-800 px-4 py-2 text-sm font-medium text-white shadow-sm transition-all hover:bg-emerald-700 hover:shadow-md sm:inline-flex">
+        <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+        Publicar
       </a>
-      <nav class="hidden lg:flex items-center gap-1">
-        <a href="/" class="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50 hover:text-[#166534] no-underline transition-colors">Inicio</a>
-        <a href="/servicios" class="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50 hover:text-[#166534] no-underline transition-colors">Servicios</a>
-        <a href="/ubicaciones" class="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50 hover:text-[#166534] no-underline transition-colors">Ubicaciones</a>
-        <a href="/blog" class="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50 hover:text-[#166534] no-underline transition-colors">Blog</a>
-        <a href="/contacto" class="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50 hover:text-[#166534] no-underline transition-colors">Contacto</a>
-      </nav>
-      <a href="https://wa.me/+56987654321?text=Hola%2C%20me%20interesa%20consultar%20sobre%20terrenos%20en%20Ays%C3%A9n" target="_blank" class="bg-[#166534] text-white font-semibold px-4 py-2 rounded-lg hover:bg-[#14532D] transition-colors no-underline text-sm inline-flex items-center gap-2">
-        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        Consulta Gratis
-      </a>
+      <button type="button" class="inline-flex size-10 items-center justify-center rounded-lg text-stone-500 transition-colors hover:bg-stone-100 hover:text-stone-700 lg:hidden" id="mobile-menu-btn" aria-label="Menú">
+        <svg class="size-5" id="menu-icon-open" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 5h16M4 12h16M4 19h16"/></svg>
+        <svg class="hidden size-5" id="menu-icon-close" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
     </div>
   </div>
+  <div class="hidden border-t border-stone-100 bg-white lg:hidden" id="mobile-menu">
+    <nav class="mx-auto max-w-7xl space-y-1 px-5 py-4">
+      <a href="/venta/" class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-stone-700 transition-colors hover:bg-emerald-50 hover:text-emerald-800">
+        <svg class="size-4 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5"/></svg>
+        Venta
+      </a>
+      <a href="/localidades/" class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-stone-700 transition-colors hover:bg-emerald-50 hover:text-emerald-800">
+        <svg class="size-4 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+        Localidades
+      </a>
+      <a href="/guia/" class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-stone-700 transition-colors hover:bg-emerald-50 hover:text-emerald-800">
+        <svg class="size-4 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/></svg>
+        Guías
+      </a>
+      <a href="/blog/" class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-stone-700 transition-colors hover:bg-emerald-50 hover:text-emerald-800">
+        <svg class="size-4 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Z"/></svg>
+        Blog
+      </a>
+      <div class="pt-2">
+        <a href="/publicar-propiedad/" class="flex w-full items-center justify-center gap-2 rounded-lg bg-emerald-800 px-4 py-2.5 text-sm font-medium text-white">
+          <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+          Publicar Propiedad
+        </a>
+      </div>
+    </nav>
+  </div>
 </header>
-  <div class="h-16"></div>
-  <main class="flex-1">
-    
-  <section class="relative bg-gradient-to-br from-[#166534] via-[#14532D] to-[#052E16] text-white overflow-hidden">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
-      <div class="max-w-3xl">
-        <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-1.5 mb-6">
-          <span class="w-2 h-2 bg-[#EAB308] rounded-full animate-pulse"></span>
-          <span class="text-[#EAB308] text-sm font-medium">Patagonia Chilena, Región de Aysén</span>
+<script>
+const btn=document.getElementById('mobile-menu-btn'),menu=document.getElementById('mobile-menu'),
+openIcon=document.getElementById('menu-icon-open'),closeIcon=document.getElementById('menu-icon-close');
+btn?.addEventListener('click',()=>{menu?.classList.toggle('hidden');openIcon?.classList.toggle('hidden');closeIcon?.classList.toggle('hidden')});
+const header=document.getElementById('site-header');
+window.addEventListener('scroll',()=>{window.scrollY>8?header?.classList.add('shadow-sm'):header?.classList.remove('shadow-sm')},{passive:true});
+</script>
+<main class="flex-1">
+  <!-- Hero -->
+  <section class="relative overflow-x-clip bg-emerald-950">
+    <!-- Gradient overlay -->
+    <div class="absolute inset-0 bg-gradient-to-b from-emerald-950/80 via-emerald-950/70 to-emerald-950/90"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(22,163,74,0.12)_0%,_transparent_60%)]"></div>
+    <div class="relative mx-auto max-w-7xl px-5 pb-20 pt-16 sm:pb-28 sm:pt-24 lg:px-8">
+      <!-- Overline -->
+      <div class="flex items-center gap-2">
+        <div class="h-px w-8 bg-emerald-500"></div>
+        <span class="text-xs font-medium uppercase tracking-[0.2em] text-emerald-400">Región de Aysén, Chile</span>
+      </div>
+      <h1 class="mt-6 max-w-3xl font-display text-4xl leading-tight text-white sm:text-5xl lg:text-6xl">Encuentra tu propiedad en la Patagonia Chilena</h1>
+      <p class="mt-5 max-w-xl text-lg leading-relaxed text-stone-300">El portal inmobiliario más completo de la Región de Aysén. Casas, parcelas, terrenos, campos y más en la Carretera Austral.</p>
+      <!-- Search bar -->
+      <div class="search-bar relative z-10 mt-10 max-w-2xl rounded-2xl border border-white/10 bg-white/[0.06] p-5 backdrop-blur-md">
+        <!-- Transaction toggle pills -->
+        <div class="relative flex rounded-xl bg-white/[0.08] p-1">
+          <div class="pointer-events-none absolute top-1 bottom-1 left-1 rounded-lg bg-white shadow-md"></div>
+          <a href="/venta/" class="relative z-10 flex-1 rounded-lg px-4 py-2.5 text-center text-sm font-semibold text-emerald-900 transition-colors duration-300">Venta</a>
+          <a href="/venta/" class="relative z-10 flex-1 rounded-lg px-4 py-2.5 text-center text-sm font-semibold text-white/70 transition-colors duration-300">Arriendo</a>
         </div>
-        <h1 class="text-4xl lg:text-5xl xl:text-6xl font-extrabold leading-tight mb-6">
-          Terrenos en Venta en<br> <span class="text-[#EAB308]">Aysén</span>
-        </h1>
-        <p class="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
-          Corretaje especializado en terrenos, parcelas y lotes en la Patagonia chilena. Títulos verificados, asesoría legal incluida y proceso 100% digital. Más de 120 operaciones exitosas.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4">
-          <a href="https://wa.me/+56987654321?text=Hola%2C%20me%20interesa%20consultar%20sobre%20terrenos%20en%20Ays%C3%A9n" target="_blank" class="inline-flex items-center justify-center gap-2 bg-[#EAB308] text-[#14532D] font-bold px-6 py-4 rounded-xl hover:bg-[#FACC15] transition-colors no-underline text-lg">
-            Consulta Inicial Gratis
+        <!-- Dropdowns row -->
+        <div class="mt-3 flex flex-col gap-2 sm:flex-row sm:gap-3">
+          <!-- Location dropdown -->
+          <div class="search-dropdown relative flex-1">
+            <button type="button" class="search-dd-trigger flex w-full items-center gap-2.5 rounded-xl border border-white/15 bg-white/[0.08] py-3 pl-3.5 pr-3.5 text-left text-sm text-white outline-none transition focus:border-emerald-400" onclick="this.nextElementSibling.classList.toggle('hidden')">
+              <svg class="size-4 shrink-0 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+              <span class="flex-1 truncate text-white/80">Todas las ubicaciones</span>
+              <svg class="size-4 shrink-0 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="search-dd-panel hidden absolute left-0 right-0 top-full z-[100] mt-1.5 overflow-hidden rounded-2xl border border-white/[0.12] bg-emerald-950/95 shadow-2xl shadow-black/40 backdrop-blur-2xl">
+              <div class="max-h-60 overflow-y-auto p-1.5">
+                <a href="/venta/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Todas las ubicaciones</a>
+                <a href="/venta/coyhaique/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Coyhaique</a>
+                <a href="/venta/puerto-aysen/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Puerto Aysén</a>
+                <a href="/venta/chile-chico/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Chile Chico</a>
+                <a href="/venta/cochrane/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Cochrane</a>
+                <a href="/venta/futaleufu/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Futaleufú</a>
+                <a href="/venta/balmaceda/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Balmaceda</a>
+                <a href="/venta/caleta-tortel/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Caleta Tortel</a>
+                <a href="/venta/cerro-castillo/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Cerro Castillo</a>
+                <a href="/venta/chaiten/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Chaitén</a>
+                <a href="/venta/la-junta/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">La Junta</a>
+                <a href="/venta/puerto-cisnes/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Puerto Cisnes</a>
+                <a href="/venta/puerto-guadal/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Puerto Guadal</a>
+                <a href="/venta/puerto-rio-tranquilo/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Puerto Río Tranquilo</a>
+                <a href="/venta/puyuhuapi/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Puyuhuapi</a>
+                <a href="/venta/villa-amengual/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Villa Amengual</a>
+                <a href="/venta/villa-ohiggins/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Villa O'Higgins</a>
+              </div>
+            </div>
+          </div>
+          <!-- Type dropdown -->
+          <div class="search-dropdown relative flex-1">
+            <button type="button" class="search-dd-trigger flex w-full items-center gap-2.5 rounded-xl border border-white/15 bg-white/[0.08] py-3 pl-3.5 pr-3.5 text-left text-sm text-white outline-none transition focus:border-emerald-400" onclick="this.nextElementSibling.classList.toggle('hidden')">
+              <svg class="size-4 shrink-0 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z"/></svg>
+              <span class="flex-1 truncate text-white/80">Todos los tipos</span>
+              <svg class="size-4 shrink-0 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="search-dd-panel hidden absolute left-0 right-0 top-full z-[100] mt-1.5 overflow-hidden rounded-2xl border border-white/[0.12] bg-emerald-950/95 shadow-2xl shadow-black/40 backdrop-blur-2xl">
+              <div class="max-h-60 overflow-y-auto p-1.5">
+                <a href="/venta/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Todos los tipos</a>
+                <a href="/venta/coyhaique/casas/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Casas</a>
+                <a href="/venta/coyhaique/departamentos/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Departamentos</a>
+                <a href="/venta/coyhaique/parcelas/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Parcelas</a>
+                <a href="/venta/coyhaique/terrenos/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Terrenos</a>
+                <a href="/venta/coyhaique/campos/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Campos</a>
+                <a href="/venta/coyhaique/cabanas/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Cabañas</a>
+                <a href="/venta/coyhaique/comercial/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Comercial</a>
+                <a href="/venta/coyhaique/lodges/" class="block w-full rounded-xl px-3.5 py-2.5 text-left text-sm text-white/80 transition hover:bg-white/10">Lodges</a>
+              </div>
+            </div>
+          </div>
+          <!-- Search button -->
+          <a href="/venta/" class="flex shrink-0 items-center justify-center gap-2 rounded-xl bg-emerald-600 px-6 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-emerald-500">
+            <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg>
+            Buscar
           </a>
-          <a href="/servicios" class="inline-flex items-center justify-center gap-2 bg-white/10 text-white font-semibold px-6 py-4 rounded-xl border-2 border-white/20 hover:bg-white/20 transition-colors no-underline text-lg">
-            Ver Terrenos
-          </a>
+        </div>
+        <!-- Quick links -->
+        <div class="mt-3 flex flex-wrap gap-2">
+          <a href="/venta/coyhaique/parcelas/" class="rounded-full bg-white/10 px-3 py-1.5 text-xs font-medium text-stone-300 transition hover:bg-white/20">Parcelas Coyhaique</a>
+          <a href="/venta/coyhaique/casas/" class="rounded-full bg-white/10 px-3 py-1.5 text-xs font-medium text-stone-300 transition hover:bg-white/20">Casas Coyhaique</a>
+          <a href="/venta/cerro-castillo/terrenos/" class="rounded-full bg-white/10 px-3 py-1.5 text-xs font-medium text-stone-300 transition hover:bg-white/20">Terrenos Cerro Castillo</a>
+          <a href="/venta/puerto-guadal/campos/" class="rounded-full bg-white/10 px-3 py-1.5 text-xs font-medium text-stone-300 transition hover:bg-white/20">Campos Puerto Guadal</a>
+          <a href="/venta/chile-chico/parcelas/" class="rounded-full bg-white/10 px-3 py-1.5 text-xs font-medium text-stone-300 transition hover:bg-white/20">Parcelas Chile Chico</a>
+          <a href="/venta/puerto-aysen/casas/" class="rounded-full bg-white/10 px-3 py-1.5 text-xs font-medium text-stone-300 transition hover:bg-white/20">Casas Puerto Aysén</a>
         </div>
       </div>
     </div>
-    <div class="bg-[#052E16]/50 border-t border-white/10">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-        <p class="text-[#EAB308] text-xs font-medium mb-2 uppercase tracking-wider">Cobertura en Aysén</p>
-        <div class="flex flex-wrap gap-2">
-          <a href="/ubicaciones/terrenos-coyhaique" class="bg-white/10 hover:bg-white/20 text-white text-xs font-medium px-3 py-1 rounded-full transition-colors no-underline">Coyhaique</a>
-          <a href="/ubicaciones/terrenos-puerto-aysen" class="bg-white/10 hover:bg-white/20 text-white text-xs font-medium px-3 py-1 rounded-full transition-colors no-underline">Puerto Aysén</a>
-          <a href="/ubicaciones/terrenos-chile-chico" class="bg-white/10 hover:bg-white/20 text-white text-xs font-medium px-3 py-1 rounded-full transition-colors no-underline">Chile Chico</a>
-          <a href="/ubicaciones/terrenos-cochrane" class="bg-white/10 hover:bg-white/20 text-white text-xs font-medium px-3 py-1 rounded-full transition-colors no-underline">Cochrane</a>
-          <a href="/ubicaciones/terrenos-rio-ibanez" class="bg-white/10 hover:bg-white/20 text-white text-xs font-medium px-3 py-1 rounded-full transition-colors no-underline">Río Ibáñez</a>
-        </div>
+    <!-- Close dropdowns on outside click -->
+    <script is:inline>
+    document.addEventListener('click',e=>{if(!e.target.closest('.search-dropdown')){document.querySelectorAll('.search-dd-panel').forEach(p=>p.classList.add('hidden'))}});
+    </script>
+  </section>
+
+  <!-- Stats -->
+  <section class="border-t border-stone-200/60 bg-stone-50/50 py-20">
+    <div class="mx-auto max-w-7xl px-5 lg:px-8">
+      <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
+        <div class="text-center"><p class="text-3xl font-bold text-emerald-800 stat-counter" data-target="706">0</p><p class="mt-1 text-sm text-stone-500">Propiedades</p></div>
+        <div class="text-center"><p class="text-3xl font-bold text-emerald-800 stat-counter" data-target="16">0</p><p class="mt-1 text-sm text-stone-500">Localidades</p></div>
+        <div class="text-center"><p class="text-3xl font-bold text-emerald-800 stat-counter" data-target="8">0</p><p class="mt-1 text-sm text-stone-500">Tipos de Propiedad</p></div>
+        <div class="text-center"><p class="text-3xl font-bold text-emerald-800 stat-counter" data-target="1200">0</p><p class="mt-1 text-sm text-stone-500">km de Carretera Austral</p></div>
       </div>
     </div>
   </section>
 
-  <section class="bg-[#F0FDF4] border-b border-gray-200 py-8">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="text-center"><div class="text-3xl font-extrabold text-[#166534]">6+</div><div class="text-sm text-gray-600 mt-1">Años de experiencia</div></div>
-        <div class="text-center"><div class="text-3xl font-extrabold text-[#166534]">120+</div><div class="text-sm text-gray-600 mt-1">Operaciones exitosas</div></div>
-        <div class="text-center"><div class="text-3xl font-extrabold text-[#166534]">4.9</div><div class="text-sm text-gray-600 mt-1">Rating promedio</div></div>
-        <div class="text-center"><div class="text-3xl font-extrabold text-[#166534]">156+</div><div class="text-sm text-gray-600 mt-1">Clientes satisfechos</div></div>
+  <!-- Explorar por Ubicación -->
+  <section class="border-y border-stone-200/60 bg-white py-20">
+    <div class="mx-auto max-w-7xl px-5 lg:px-8">
+      <h2 class="text-2xl font-bold text-stone-900">Explorar por Ubicación</h2>
+      <p class="mt-2 text-stone-500">16 localidades a lo largo de la Carretera Austral</p>
+      <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <a href="/localidades/coyhaique/" class="group rounded-xl border border-stone-200 p-5 transition hover:border-emerald-300 hover:shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600">
+              <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-stone-900 group-hover:text-emerald-700 transition-colors">Coyhaique</h3>
+              <p class="text-xs text-stone-500">333 propiedades · 310m altitud</p>
+            </div>
+          </div>
+        </a>
+        <a href="/localidades/puerto-aysen/" class="group rounded-xl border border-stone-200 p-5 transition hover:border-emerald-300 hover:shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600">
+              <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-stone-900 group-hover:text-emerald-700 transition-colors">Puerto Aysén</h3>
+              <p class="text-xs text-stone-500">114 propiedades · 15m altitud</p>
+            </div>
+          </div>
+        </a>
+        <a href="/localidades/chile-chico/" class="group rounded-xl border border-stone-200 p-5 transition hover:border-emerald-300 hover:shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600">
+              <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-stone-900 group-hover:text-emerald-700 transition-colors">Chile Chico</h3>
+              <p class="text-xs text-stone-500">44 propiedades · 200m altitud</p>
+            </div>
+          </div>
+        </a>
+        <a href="/localidades/cochrane/" class="group rounded-xl border border-stone-200 p-5 transition hover:border-emerald-300 hover:shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600">
+              <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-stone-900 group-hover:text-emerald-700 transition-colors">Cochrane</h3>
+              <p class="text-xs text-stone-500">15 propiedades · 170m altitud</p>
+            </div>
+          </div>
+        </a>
+        <a href="/localidades/futaleufu/" class="group rounded-xl border border-stone-200 p-5 transition hover:border-emerald-300 hover:shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600">
+              <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-stone-900 group-hover:text-emerald-700 transition-colors">Futaleufú</h3>
+              <p class="text-xs text-stone-500">2 propiedades · 350m altitud</p>
+            </div>
+          </div>
+        </a>
+        <a href="/localidades/balmaceda/" class="group rounded-xl border border-stone-200 p-5 transition hover:border-emerald-300 hover:shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600">
+              <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-stone-900 group-hover:text-emerald-700 transition-colors">Balmaceda</h3>
+              <p class="text-xs text-stone-500">40 propiedades · 520m altitud</p>
+            </div>
+          </div>
+        </a>
+        <a href="/localidades/caleta-tortel/" class="group rounded-xl border border-stone-200 p-5 transition hover:border-emerald-300 hover:shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600">
+              <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-stone-900 group-hover:text-emerald-700 transition-colors">Caleta Tortel</h3>
+              <p class="text-xs text-stone-500">3 propiedades · 5m altitud</p>
+            </div>
+          </div>
+        </a>
+        <a href="/localidades/cerro-castillo/" class="group rounded-xl border border-stone-200 p-5 transition hover:border-emerald-300 hover:shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600">
+              <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-stone-900 group-hover:text-emerald-700 transition-colors">Cerro Castillo</h3>
+              <p class="text-xs text-stone-500">67 propiedades · 400m altitud</p>
+            </div>
+          </div>
+        </a>
+        <a href="/localidades/chaiten/" class="group rounded-xl border border-stone-200 p-5 transition hover:border-emerald-300 hover:shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600">
+              <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-stone-900 group-hover:text-emerald-700 transition-colors">Chaitén</h3>
+              <p class="text-xs text-stone-500">0 propiedades · 10m altitud</p>
+            </div>
+          </div>
+        </a>
+        <a href="/localidades/la-junta/" class="group rounded-xl border border-stone-200 p-5 transition hover:border-emerald-300 hover:shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600">
+              <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-stone-900 group-hover:text-emerald-700 transition-colors">La Junta</h3>
+              <p class="text-xs text-stone-500">9 propiedades · 340m altitud</p>
+            </div>
+          </div>
+        </a>
+        <a href="/localidades/puerto-cisnes/" class="group rounded-xl border border-stone-200 p-5 transition hover:border-emerald-300 hover:shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600">
+              <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-stone-900 group-hover:text-emerald-700 transition-colors">Puerto Cisnes</h3>
+              <p class="text-xs text-stone-500">29 propiedades · 5m altitud</p>
+            </div>
+          </div>
+        </a>
+        <a href="/localidades/puerto-guadal/" class="group rounded-xl border border-stone-200 p-5 transition hover:border-emerald-300 hover:shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600">
+              <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-stone-900 group-hover:text-emerald-700 transition-colors">Puerto Guadal</h3>
+              <p class="text-xs text-stone-500">35 propiedades · 250m altitud</p>
+            </div>
+          </div>
+        </a>
+        <a href="/localidades/puerto-rio-tranquilo/" class="group rounded-xl border border-stone-200 p-5 transition hover:border-emerald-300 hover:shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600">
+              <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-stone-900 group-hover:text-emerald-700 transition-colors">Puerto Río Tranquilo</h3>
+              <p class="text-xs text-stone-500">7 propiedades · 220m altitud</p>
+            </div>
+          </div>
+        </a>
+        <a href="/localidades/puyuhuapi/" class="group rounded-xl border border-stone-200 p-5 transition hover:border-emerald-300 hover:shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600">
+              <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-stone-900 group-hover:text-emerald-700 transition-colors">Puyuhuapi</h3>
+              <p class="text-xs text-stone-500">7 propiedades · 20m altitud</p>
+            </div>
+          </div>
+        </a>
+        <a href="/localidades/villa-amengual/" class="group rounded-xl border border-stone-200 p-5 transition hover:border-emerald-300 hover:shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600">
+              <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-stone-900 group-hover:text-emerald-700 transition-colors">Villa Amengual</h3>
+              <p class="text-xs text-stone-500">0 propiedades · 380m altitud</p>
+            </div>
+          </div>
+        </a>
+        <a href="/localidades/villa-ohiggins/" class="group rounded-xl border border-stone-200 p-5 transition hover:border-emerald-300 hover:shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600">
+              <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-stone-900 group-hover:text-emerald-700 transition-colors">Villa O'Higgins</h3>
+              <p class="text-xs text-stone-500">1 propiedades · 250m altitud</p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   </section>
 
-  <section class="py-20">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-14">
-        <h2 class="text-3xl lg:text-4xl font-extrabold text-gray-900">Nuestros Servicios Inmobiliarios</h2>
-        <p class="mt-4 text-lg text-gray-500 max-w-2xl mx-auto">La oferta más completa de terrenos en la Región de Aysén, con asesoría legal y visitas guiadas.</p>
+  <!-- Últimas Publicaciones -->
+  <section class="border-b border-stone-200/60 bg-stone-50/50 py-20">
+    <div class="mx-auto max-w-7xl px-5 lg:px-8">
+      <div class="flex items-end justify-between">
+        <div>
+          <h2 class="text-2xl font-bold text-stone-900">Últimas Publicaciones</h2>
+          <p class="mt-2 text-stone-500">Propiedades destacadas en la Patagonia</p>
+        </div>
+        <a href="/venta/" class="hidden items-center gap-1 text-sm font-medium text-emerald-700 transition hover:text-emerald-800 sm:inline-flex">Ver todas <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></a>
       </div>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <a href="/servicios/venta-terrenos-aysen" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg hover:border-[#EAB308]/30 transition-all">
-          <div class="w-12 h-12 bg-[#F0FDF4] rounded-xl flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-[#166534]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+      <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <a href="/venta/coyhaique/casas/casa-en-coihaique-12780e" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="https://demoazimg.prop360.cl/ahumadapropiedades/img/propiedades/5218_Vr00ogbphoeivteaVIBO20260213203511.jpg?sv=2021-06-08&ss=f&srt=sco&sp=r&se=2026-02-01T23:44:43Z&st=2022-09-12T15:44:43Z&spr=https&sig=8wumTxX67AEf8bZxCO8ZoRk9Jw6m8UWq2%2FYFAqMdnJw%3D" alt="Casa 5D/5B en Coyhaique, Amplio Terreno" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
           </div>
-          <h3 class="font-bold text-lg text-gray-900 mb-2">Venta de Terrenos en Aysén</h3>
-          <p class="text-gray-500 text-sm leading-relaxed mb-4">Corretaje especializado en la venta de terrenos en toda la Región de Aysén. Trabajamos con lotes urbanos, parcelas rurales y fundos con títulos al día...</p>
-          <span class="text-[#166534] text-sm font-semibold flex items-center gap-1">Más información <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 12.500</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="casa-en-coihaique-12780e" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors">Casa 5D/5B en Coyhaique, Amplio Terreno</h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          
+        </div>
+      </a>
+      <a href="/venta/coyhaique/casas/casa-en-coihaique-225085" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="https://demoazimg.prop360.cl/ahumadapropiedades/img/propiedades/5196_KeMshHHkypRp5xTLlEgx20260206005700.jpg?sv=2021-06-08&ss=f&srt=sco&sp=r&se=2026-02-01T23:44:43Z&st=2022-09-12T15:44:43Z&spr=https&sig=8wumTxX67AEf8bZxCO8ZoRk9Jw6m8UWq2%2FYFAqMdnJw%3D" alt="Casa 5D/4B en Coyhaique, Céntrica y Amplia" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 8.100</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="casa-en-coihaique-225085" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors">Casa 5D/4B en Coyhaique, Céntrica y Amplia</h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          
+        </div>
+      </a>
+      <a href="/venta/coyhaique/casas/casa-en-coihaique-5a0b84" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="https://demoazimg.prop360.cl/ahumadapropiedades/img/propiedades/5228_iYryWQPbPljhFmszUi0G20260217203231.jpg?sv=2021-06-08&ss=f&srt=sco&sp=r&se=2026-02-01T23:44:43Z&st=2022-09-12T15:44:43Z&spr=https&sig=8wumTxX67AEf8bZxCO8ZoRk9Jw6m8UWq2%2FYFAqMdnJw%3D" alt="Local Comercial en Coyhaique, Av. Baquedano" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 13.539</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="casa-en-coihaique-5a0b84" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors">Local Comercial en Coyhaique, Av. Baquedano</h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          
+        </div>
+      </a>
+      <a href="/venta/coyhaique/casas/casa-en-coihaique-8726bb" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="https://demoazimg.prop360.cl/ahumadapropiedades/img/propiedades/5226_DmMutTbZhw4kcRLKrxYr20260217200016.jpg?sv=2021-06-08&ss=f&srt=sco&sp=r&se=2026-02-01T23:44:43Z&st=2022-09-12T15:44:43Z&spr=https&sig=8wumTxX67AEf8bZxCO8ZoRk9Jw6m8UWq2%2FYFAqMdnJw%3D" alt="Casa 5D/4B en Coyhaique, Parcela 5.000 m2 con Quincho" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 10.000</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="casa-en-coihaique-8726bb" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors">Casa 5D/4B en Coyhaique, Parcela 5.000 m2 con Quincho</h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          <div class="mt-2 flex flex-wrap gap-2 text-xs text-stone-500"><span class="inline-flex items-center gap-1"><span>5.000 m2</span></span></div>
+        </div>
+      </a>
+      <a href="/venta/coyhaique/casas/casa-en-coihaique-922073" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="https://demoazimg.prop360.cl/ahumadapropiedades/img/propiedades/5206_0tmUrbptmOAMeZfC4jYt20260212175940.jpg?sv=2021-06-08&ss=f&srt=sco&sp=r&se=2026-02-01T23:44:43Z&st=2022-09-12T15:44:43Z&spr=https&sig=8wumTxX67AEf8bZxCO8ZoRk9Jw6m8UWq2%2FYFAqMdnJw%3D" alt="Casa 4D/3B en Coyhaique, Cerca Reserva Nacional" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 8.100</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="casa-en-coihaique-922073" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors">Casa 4D/3B en Coyhaique, Cerca Reserva Nacional</h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          
+        </div>
+      </a>
+      <a href="/venta/coyhaique/casas/casa-en-coihaique-a24281" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="https://demoazimg.prop360.cl/ahumadapropiedades/img/propiedades/5231_iSeZ7v1nplQIvgag3W3q20260217211532.jpg?sv=2021-06-08&ss=f&srt=sco&sp=r&se=2026-02-01T23:44:43Z&st=2022-09-12T15:44:43Z&spr=https&sig=8wumTxX67AEf8bZxCO8ZoRk9Jw6m8UWq2%2FYFAqMdnJw%3D" alt="Casa 3D/2B en Coyhaique, a 7 Cuadras de la Plaza" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 6.800</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="casa-en-coihaique-a24281" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors">Casa 3D/2B en Coyhaique, a 7 Cuadras de la Plaza</h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          
+        </div>
+      </a>
+      <a href="/venta/coyhaique/casas/casa-en-coihaique-c8d121" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="https://demoazimg.prop360.cl/ahumadapropiedades/img/propiedades/5186_bmdwuRQIXV4eG1T2o7H320260122022705.jpg?sv=2021-06-08&ss=f&srt=sco&sp=r&se=2026-02-01T23:44:43Z&st=2022-09-12T15:44:43Z&spr=https&sig=8wumTxX67AEf8bZxCO8ZoRk9Jw6m8UWq2%2FYFAqMdnJw%3D" alt="Casa 3D/3B en Coyhaique Bajo, Orilla de Río Coyhaique" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 8.000</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="casa-en-coihaique-c8d121" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors">Casa 3D/3B en Coyhaique Bajo, Orilla de Río Coyhaique</h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          
+        </div>
+      </a>
+      <a href="/venta/coyhaique/casas/se-vende-casa-en-parcela-las-mariposas-3328bd" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="/placeholder.jpg" alt="" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 10.500</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="se-vende-casa-en-parcela-las-mariposas-3328bd" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors"></h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          
+        </div>
+      </a>
+      <a href="/venta/coyhaique/casas/se-vende-propiedad-en-coyhaique-e57c6b" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="/placeholder.jpg" alt="" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 6.675</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="se-vende-propiedad-en-coyhaique-e57c6b" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors"></h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          
+        </div>
+      </a>
+      <a href="/venta/coyhaique/casas/casa-en-8-5ha-orilla-rio-simpson-76bfe8" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="/Users/nicolasgorrono/Desktop/properties/scraper/data/images/property_partners_casa-en-8-5ha-orilla-rio-simpson-76bfe8_0.webp" alt="Casa en Coyhaique, 260 m2 a orillas del Río Simpson" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 13.450</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="casa-en-8-5ha-orilla-rio-simpson-76bfe8" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors">Casa en Coyhaique, 260 m2 a orillas del Río Simpson</h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          <div class="mt-2 flex flex-wrap gap-2 text-xs text-stone-500"><span class="inline-flex items-center gap-1"><span>260 m2</span></span><span class="inline-flex items-center gap-1"><span>5 ha</span></span></div>
+        </div>
+      </a>
+      <a href="/venta/coyhaique/casas/gran-casa-en-condominio-alto-valle-coyhaique-9e9105" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="/Users/nicolasgorrono/Desktop/properties/scraper/data/images/property_partners_gran-casa-en-condominio-alto-valle-coyhaique-9e9105_0.webp" alt="Casa en Coyhaique, Condominio Alto Valle, 234 m2" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 8.000</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="gran-casa-en-condominio-alto-valle-coyhaique-9e9105" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors">Casa en Coyhaique, Condominio Alto Valle, 234 m2</h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          <div class="mt-2 flex flex-wrap gap-2 text-xs text-stone-500"><span class="inline-flex items-center gap-1"><span>234 m2</span></span></div>
+        </div>
+      </a>
+      <a href="/venta/coyhaique/parcelas/campo-con-excelente-conectividad-y-topografia-ideal-a28d0b" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="https://anfrunspropiedades.cl/wp-content/uploads/2025/11/3-3.jpg" alt="Campo en Coyhaique, 200 ha con excelente conectividad" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 15.500</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="campo-con-excelente-conectividad-y-topografia-ideal-a28d0b" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors">Campo en Coyhaique, 200 ha con excelente conectividad</h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          <div class="mt-2 flex flex-wrap gap-2 text-xs text-stone-500"><span class="inline-flex items-center gap-1"><span>200 ha</span></span></div>
+        </div>
+      </a>
+      <a href="/venta/coyhaique/parcelas/campo-con-subdivision-aprobada-en-venta-en-la-41cb1b" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="https://anfrunspropiedades.cl/wp-content/uploads/2023/01/WhatsApp-Image-2025-08-14-at-17.01.54-1.jpeg" alt="Parcela en Coyhaique, 60 ha con subdivisión aprobada" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 9.500</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="campo-con-subdivision-aprobada-en-venta-en-la-41cb1b" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors">Parcela en Coyhaique, 60 ha con subdivisión aprobada</h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          <div class="mt-2 flex flex-wrap gap-2 text-xs text-stone-500"><span class="inline-flex items-center gap-1"><span>60 ha</span></span></div>
+        </div>
+      </a>
+      <a href="/venta/coyhaique/parcelas/hermosa-parcela-con-vista-al-lago-42684d" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="https://anfrunspropiedades.cl/wp-content/uploads/2025/11/1-1.jpg" alt="Parcela en Coyhaique, vista al Lago Atravesado, 5.000 m2" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 1.600</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="hermosa-parcela-con-vista-al-lago-42684d" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors">Parcela en Coyhaique, vista al Lago Atravesado, 5.000 m2</h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          <div class="mt-2 flex flex-wrap gap-2 text-xs text-stone-500"><span class="inline-flex items-center gap-1"><span>5.000 m2</span></span></div>
+        </div>
+      </a>
+      <a href="/venta/coyhaique/parcelas/lago-atravesado-anfruns-propiedades-8d6c2d" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="https://anfrunspropiedades.cl/wp-content/uploads/2022/10/AnfrunsPropiedades7.jpg" alt="Parcela en Coyhaique, Orilla Lago Atravesado, 10 ha, Pesca" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 26.000</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="lago-atravesado-anfruns-propiedades-8d6c2d" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors">Parcela en Coyhaique, Orilla Lago Atravesado, 10 ha, Pesca</h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          <div class="mt-2 flex flex-wrap gap-2 text-xs text-stone-500"><span class="inline-flex items-center gap-1"><span>10 ha</span></span></div>
+        </div>
+      </a>
+      <a href="/venta/coyhaique/parcelas/parcela-a-orillas-del-lago-634b5a" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="https://anfrunspropiedades.cl/wp-content/uploads/2025/09/1.jpg" alt="Parcela 4D/2B en Coyhaique, Orilla Lago Pollux" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 6.800</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="parcela-a-orillas-del-lago-634b5a" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors">Parcela 4D/2B en Coyhaique, Orilla Lago Pollux</h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          
+        </div>
+      </a>
+      <a href="/venta/coyhaique/parcelas/parcela-a-orillas-del-lago-parcela-lago-pollux-632bee" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="https://anfrunspropiedades.cl/wp-content/uploads/2026/01/1-3.jpg" alt="Parcela 1 ha en Coyhaique, Orilla Lago Pollux" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 2.800</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="parcela-a-orillas-del-lago-parcela-lago-pollux-632bee" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors">Parcela 1 ha en Coyhaique, Orilla Lago Pollux</h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          <div class="mt-2 flex flex-wrap gap-2 text-xs text-stone-500"><span class="inline-flex items-center gap-1"><span>1 ha</span></span></div>
+        </div>
+      </a>
+      <a href="/venta/coyhaique/parcelas/parcela-o-5-has-sector-lago-polux-uf-2100-1f8678" class="group relative block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/60 card-hover">
+        <div class="relative aspect-[4/3] overflow-hidden bg-stone-100">
+          <img src="https://patriciachiblecorretajes.com/wp-content/uploads/2024/08/IMG-20240104-WA0006.jpg" alt="Parcela 5.000 m2 en Coyhaique, Lago Polux" class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06]" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling?.classList.remove('hidden')">
+          <div class="hidden absolute inset-0 flex items-center justify-center bg-gradient-to-br from-stone-100 to-stone-50">
+            <svg class="size-10 text-stone-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class="absolute bottom-3 left-3"><span class="inline-flex items-center rounded-lg bg-white/95 px-3 py-1.5 text-sm font-bold text-emerald-900 shadow-lg backdrop-blur-sm">UF 2.100</span></div>
+          <div class="absolute right-3 top-3" onclick="event.preventDefault()">
+            <button type="button" class="fav-btn group/f flex size-8 items-center justify-center rounded-full bg-white/90 text-stone-400 shadow-sm backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-rose-500 hover:shadow-md" data-slug="parcela-o-5-has-sector-lago-polux-uf-2100-1f8678" data-save-label="Guardar" data-saved-label="Guardado" aria-label="Guardar propiedad">
+              <svg class="fav-icon size-4 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="text-sm font-semibold text-stone-900 line-clamp-2 group-hover:text-emerald-700 transition-colors">Parcela 5.000 m2 en Coyhaique, Lago Polux</h3>
+          <div class="mt-2 flex items-center gap-1.5 text-xs text-stone-500">
+            <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            <span>Coyhaique</span>
+          </div>
+          <div class="mt-2 flex flex-wrap gap-2 text-xs text-stone-500"><span class="inline-flex items-center gap-1"><span>5.000 m2</span></span></div>
+        </div>
+      </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Explorar por Tipo -->
+  <section class="bg-white py-20">
+    <div class="mx-auto max-w-7xl px-5 lg:px-8">
+      <h2 class="text-2xl font-bold text-stone-900">Explorar por Tipo</h2>
+      <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <a href="/venta/coyhaique/casas/" class="group rounded-xl border border-stone-200 p-4 text-center transition hover:border-emerald-300 hover:shadow-sm">
+          <div class="mx-auto flex size-12 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 transition group-hover:bg-emerald-100">
+            <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955a1.126 1.126 0 0 1 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>
+          </div>
+          <h3 class="mt-3 font-semibold text-stone-900 group-hover:text-emerald-700">Casas</h3>
+          <p class="mt-1 text-xs text-stone-500">147 en venta</p>
         </a>
-        <a href="/servicios/parcelas-en-aysen" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg hover:border-[#EAB308]/30 transition-all">
-          <div class="w-12 h-12 bg-[#F0FDF4] rounded-xl flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-[#166534]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        <a href="/venta/coyhaique/departamentos/" class="group rounded-xl border border-stone-200 p-4 text-center transition hover:border-emerald-300 hover:shadow-sm">
+          <div class="mx-auto flex size-12 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 transition group-hover:bg-emerald-100">
+            <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955a1.126 1.126 0 0 1 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>
           </div>
-          <h3 class="font-bold text-lg text-gray-900 mb-2">Parcelas en Venta en Aysén</h3>
-          <p class="text-gray-500 text-sm leading-relaxed mb-4">Amplia oferta de parcelas rurales en la Patagonia de Aysén. Parcelas con frente a ríos, lagos y volcanes desde 5.000 m²....</p>
-          <span class="text-[#166534] text-sm font-semibold flex items-center gap-1">Más información <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
+          <h3 class="mt-3 font-semibold text-stone-900 group-hover:text-emerald-700">Departamentos</h3>
+          <p class="mt-1 text-xs text-stone-500">7 en venta</p>
         </a>
-        <a href="/servicios/lotes-urbanos-aysen" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg hover:border-[#EAB308]/30 transition-all">
-          <div class="w-12 h-12 bg-[#F0FDF4] rounded-xl flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-[#166534]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0a1 1 0 01-1-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 01-1 1"/></svg>
+        <a href="/venta/coyhaique/parcelas/" class="group rounded-xl border border-stone-200 p-4 text-center transition hover:border-emerald-300 hover:shadow-sm">
+          <div class="mx-auto flex size-12 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 transition group-hover:bg-emerald-100">
+            <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955a1.126 1.126 0 0 1 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>
           </div>
-          <h3 class="font-bold text-lg text-gray-900 mb-2">Lotes Urbanos en Aysén</h3>
-          <p class="text-gray-500 text-sm leading-relaxed mb-4">Lotes urbanos listos para construir en Coyhaique y Puerto Aysén. Terrenos con servicios básicos disponibles y permisos de edificación aprobados....</p>
-          <span class="text-[#166534] text-sm font-semibold flex items-center gap-1">Más información <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
+          <h3 class="mt-3 font-semibold text-stone-900 group-hover:text-emerald-700">Parcelas</h3>
+          <p class="mt-1 text-xs text-stone-500">258 en venta</p>
         </a>
-        <a href="/servicios/inversion-terrenos-patagonia" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg hover:border-[#EAB308]/30 transition-all">
-          <div class="w-12 h-12 bg-[#F0FDF4] rounded-xl flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-[#166534]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+        <a href="/venta/coyhaique/terrenos/" class="group rounded-xl border border-stone-200 p-4 text-center transition hover:border-emerald-300 hover:shadow-sm">
+          <div class="mx-auto flex size-12 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 transition group-hover:bg-emerald-100">
+            <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955a1.126 1.126 0 0 1 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>
           </div>
-          <h3 class="font-bold text-lg text-gray-900 mb-2">Inversión en Terrenos Patagonia</h3>
-          <p class="text-gray-500 text-sm leading-relaxed mb-4">Asesoría especializada para invertir en terrenos en la Patagonia de Aysén. Análisis de plusvalía, zonas con potencial y seguimiento de tendencias....</p>
-          <span class="text-[#166534] text-sm font-semibold flex items-center gap-1">Más información <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
+          <h3 class="mt-3 font-semibold text-stone-900 group-hover:text-emerald-700">Terrenos</h3>
+          <p class="mt-1 text-xs text-stone-500">115 en venta</p>
         </a>
-        <a href="/servicios/terrenos-agricolas-aysen" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg hover:border-[#EAB308]/30 transition-all">
-          <div class="w-12 h-12 bg-[#F0FDF4] rounded-xl flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-[#166534]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 26L10.6 4.8a.7.7 0 011.3 0L14 14M6 18h8M2 26h20M6 22h4M16 22h4"/></svg>
+        <a href="/venta/coyhaique/campos/" class="group rounded-xl border border-stone-200 p-4 text-center transition hover:border-emerald-300 hover:shadow-sm">
+          <div class="mx-auto flex size-12 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 transition group-hover:bg-emerald-100">
+            <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955a1.126 1.126 0 0 1 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>
           </div>
-          <h3 class="font-bold text-lg text-gray-900 mb-2">Terrenos Agrícolas en Aysén</h3>
-          <p class="text-gray-500 text-sm leading-relaxed mb-4">Campos y fundos agrícolas en venta en la Región de Aysén. Terrenos ideales para ganadería ovina, bovina y producción silvícola....</p>
-          <span class="text-[#166534] text-sm font-semibold flex items-center gap-1">Más información <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
+          <h3 class="mt-3 font-semibold text-stone-900 group-hover:text-emerald-700">Campos</h3>
+          <p class="mt-1 text-xs text-stone-500">139 en venta</p>
         </a>
-        <a href="/servicios/tramites-compra-terreno-aysen" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg hover:border-[#EAB308]/30 transition-all">
-          <div class="w-12 h-12 bg-[#F0FDF4] rounded-xl flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-[#166534]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        <a href="/venta/coyhaique/cabanas/" class="group rounded-xl border border-stone-200 p-4 text-center transition hover:border-emerald-300 hover:shadow-sm">
+          <div class="mx-auto flex size-12 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 transition group-hover:bg-emerald-100">
+            <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955a1.126 1.126 0 0 1 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>
           </div>
-          <h3 class="font-bold text-lg text-gray-900 mb-2">Trámites para Comprar Terreno en Aysén</h3>
-          <p class="text-gray-500 text-sm leading-relaxed mb-4">Gestión completa de trámites legales para comprar terrenos en Aysén. Estudio de títulos, certificados y escrituración ante notario....</p>
-          <span class="text-[#166534] text-sm font-semibold flex items-center gap-1">Más información <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
+          <h3 class="mt-3 font-semibold text-stone-900 group-hover:text-emerald-700">Cabañas</h3>
+          <p class="mt-1 text-xs text-stone-500">6 en venta</p>
         </a>
-        <a href="/servicios/terrenos-rurales-aysen" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg hover:border-[#EAB308]/30 transition-all">
-          <div class="w-12 h-12 bg-[#F0FDF4] rounded-xl flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-[#166534]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+        <a href="/venta/coyhaique/comercial/" class="group rounded-xl border border-stone-200 p-4 text-center transition hover:border-emerald-300 hover:shadow-sm">
+          <div class="mx-auto flex size-12 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 transition group-hover:bg-emerald-100">
+            <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955a1.126 1.126 0 0 1 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>
           </div>
-          <h3 class="font-bold text-lg text-gray-900 mb-2">Terrenos Rurales en Aysén</h3>
-          <p class="text-gray-500 text-sm leading-relaxed mb-4">Campos patagónicos y terrenos rurales en la Región de Aysén. Ideales para turismo, ganadería extensiva y vida rural fuera de la ciudad....</p>
-          <span class="text-[#166534] text-sm font-semibold flex items-center gap-1">Más información <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
+          <h3 class="mt-3 font-semibold text-stone-900 group-hover:text-emerald-700">Comercial</h3>
+          <p class="mt-1 text-xs text-stone-500">18 en venta</p>
         </a>
-        <a href="/servicios/parcelas-lago-rio-aysen" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg hover:border-[#EAB308]/30 transition-all">
-          <div class="w-12 h-12 bg-[#F0FDF4] rounded-xl flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-[#166534]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064"/></svg>
+        <a href="/venta/coyhaique/lodges/" class="group rounded-xl border border-stone-200 p-4 text-center transition hover:border-emerald-300 hover:shadow-sm">
+          <div class="mx-auto flex size-12 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 transition group-hover:bg-emerald-100">
+            <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955a1.126 1.126 0 0 1 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>
           </div>
-          <h3 class="font-bold text-lg text-gray-900 mb-2">Parcelas con Frente a Lago y Río en Aysén</h3>
-          <p class="text-gray-500 text-sm leading-relaxed mb-4">Parcelas y terrenos con frente a los principales lagos y ríos de Aysén. Vista al lago General Carrera, lago Cochrane y ríos Simpson, Baker y Aysén....</p>
-          <span class="text-[#166534] text-sm font-semibold flex items-center gap-1">Más información <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
+          <h3 class="mt-3 font-semibold text-stone-900 group-hover:text-emerald-700">Lodges</h3>
+          <p class="mt-1 text-xs text-stone-500">16 en venta</p>
         </a>
       </div>
     </div>
   </section>
 
-  <section class="py-20 bg-[#F0FDF4]">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-14">
-        <h2 class="text-3xl lg:text-4xl font-extrabold text-gray-900">Lo que dicen nuestros clientes</h2>
-        <p class="mt-4 text-lg text-gray-500">Más de 156 clientes confían en nosotros para encontrar su terreno en la Patagonia.</p>
-      </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="bg-white rounded-2xl p-6 shadow-sm">
-          <div class="flex gap-1 mb-3 text-[#EAB308]">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">"Encontramos el lote perfecto para construir nuestra casa familiar sin pagar precios de Santiago. El equipo nos guió en cada paso del proceso, desde la verificación de títulos hasta la escrituración final. Totalmente recomendados."</p>
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 bg-[#166534] rounded-full flex items-center justify-center text-white font-bold text-sm">CM</div>
-            <div><div class="font-semibold text-sm text-gray-900">Cristian Muñoz Vera</div><div class="text-xs text-gray-500">Coyhaique</div></div>
-          </div>
-        </div>
-        <div class="bg-white rounded-2xl p-6 shadow-sm">
-          <div class="flex gap-1 mb-3 text-[#EAB308]">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">"Compramos una parcela con vista al fiordo a mitad de precio de lo que hubiéramos pagado en Coyhaique. El acceso mejora cada año y el proceso fue muy transparente."</p>
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 bg-[#166534] rounded-full flex items-center justify-center text-white font-bold text-sm">PH</div>
-            <div><div class="font-semibold text-sm text-gray-900">Paulina Hernández Soto</div><div class="text-xs text-gray-500">Puerto Aysén</div></div>
-          </div>
-        </div>
-        <div class="bg-white rounded-2xl p-6 shadow-sm">
-          <div class="flex gap-1 mb-3 text-[#EAB308]">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">"Vivo en Santiago y tenía dudas de comprar a distancia, pero el equipo hizo todo el proceso remoto de manera impecable. Finalmente compré una parcela en Chile Chico."</p>
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 bg-[#166534] rounded-full flex items-center justify-center text-white font-bold text-sm">RA</div>
-            <div><div class="font-semibold text-sm text-gray-900">Rodrigo Alarcón Mansilla</div><div class="text-xs text-gray-500">Santiago</div></div>
-          </div>
-        </div>
-        <div class="bg-white rounded-2xl p-6 shadow-sm">
-          <div class="flex gap-1 mb-3 text-[#EAB308]">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">"Teníamos el sueño de un lodge en la Patagonia y encontramos esta parcela con frente al lago General Carrera. La asesoría sobre permisos de turismo fue fundamental."</p>
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 bg-[#166534] rounded-full flex items-center justify-center text-white font-bold text-sm">CV</div>
-            <div><div class="font-semibold text-sm text-gray-900">Carmen Vidal Bahamondes</div><div class="text-xs text-gray-500">Chile Chico</div></div>
-          </div>
-        </div>
-        <div class="bg-white rounded-2xl p-6 shadow-sm">
-          <div class="flex gap-1 mb-3 text-[#EAB308]">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">"Buscábamos un campo para criar ganado ovino y encontramos uno con acceso al río Simpson y pastizales naturales. El precio por hectárea era muy razonable."</p>
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 bg-[#166534] rounded-full flex items-center justify-center text-white font-bold text-sm">GC</div>
-            <div><div class="font-semibold text-sm text-gray-900">Gustavo Cárcamo Riffo</div><div class="text-xs text-gray-500">Coyhaique</div></div>
-          </div>
-        </div>
-        <div class="bg-white rounded-2xl p-6 shadow-sm">
-          <div class="flex gap-1 mb-3 text-[#EAB308]">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">"El trámite de compra de nuestro lote urbano fue rápido y sin complicaciones. Solo tuvimos que viajar una vez a Puerto Aysén para la firma final."</p>
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 bg-[#166534] rounded-full flex items-center justify-center text-white font-bold text-sm">MO</div>
-            <div><div class="font-semibold text-sm text-gray-900">Marcela Ojeda Pérez</div><div class="text-xs text-gray-500">Puerto Aysén</div></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="py-20 bg-[#166534]">
-    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h2 class="text-3xl lg:text-4xl font-extrabold text-white mb-4">¿Buscas terrenos en la Patagonia?</h2>
-      <p class="text-gray-300 text-lg mb-8">Tu primera consulta es sin costo. Escríbenos por WhatsApp.</p>
-      <a href="https://wa.me/+56987654321?text=Hola%2C%20me%20interesa%20consultar%20sobre%20terrenos%20en%20Ays%C3%A9n" target="_blank" class="inline-flex items-center gap-2 bg-[#EAB308] text-[#14532D] font-bold px-8 py-4 rounded-xl hover:bg-[#FACC15] transition-colors no-underline text-lg">
-        Escribir por WhatsApp
+  <!-- Publicar Propiedad CTA -->
+  <section class="relative overflow-hidden bg-emerald-900 py-20">
+    <div class="mx-auto max-w-3xl px-5 text-center lg:px-8">
+      <h2 class="text-2xl font-bold text-white">Publica tus propiedades gratis</h2>
+      <p class="mt-4 text-emerald-200">Alcanza compradores nacionales e internacionales interesados en la Patagonia Chilena.</p>
+      <a href="/publicar-propiedad/" class="mt-8 inline-flex items-center gap-2 rounded-xl bg-white px-8 py-3.5 text-sm font-semibold text-emerald-900 shadow-lg transition-all hover:bg-emerald-50 hover:shadow-xl">
+        Publicar Propiedad
+        <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
       </a>
     </div>
   </section>
-  </main>
-  <footer class="bg-[#14532D] text-white py-16">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-      <div class="md:col-span-2">
-        <h3 class="font-bold text-lg mb-3">Terrenos en Aysén SpA</h3>
-        <p class="text-gray-400 text-sm leading-relaxed mb-4">Av. Libertador Bernardo O'Higgins 345, Coyhaique, Aysén</p>
-        <p class="text-gray-400 text-sm">+56 9 8765 4321 | info@terrenosenaysen.cl</p>
-        <p class="text-gray-400 text-sm mt-1">Mo-Fr 09:00-19:00, Sa 10:00-14:00</p>
+</main>
+<footer class="relative overflow-hidden bg-emerald-950 text-stone-300">
+  <div class="h-px w-full bg-gradient-to-r from-transparent via-emerald-500/40 to-transparent"></div>
+  <div class="mx-auto max-w-7xl px-5 pb-10 pt-16 lg:px-8">
+    <div class="flex flex-col gap-10 border-b border-white/10 pb-10 lg:flex-row lg:items-end lg:justify-between">
+      <div class="max-w-md">
+        <a href="/" class="group inline-flex items-center gap-2.5">
+          <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-800">
+            <svg class="size-5 text-emerald-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m8 3 4 8 5-5 5 15H2z"/></svg>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-display text-xl text-white">Terrenos en Aysén</span>
+            <span class="text-[10px] font-medium uppercase tracking-[0.2em] text-stone-500">Patagonia Chile</span>
+          </div>
+        </a>
+        <p class="mt-4 text-sm leading-relaxed text-stone-400">Tu portal inmobiliario en la Patagonia Chilena. 16 localidades a lo largo de la Carretera Austral en la Región de Aysén.</p>
       </div>
-      <div>
-        <h4 class="font-semibold text-sm mb-3 text-[#EAB308]">Servicios</h4>
-        <ul class="space-y-1">
-          <li><a href="/servicios/venta-terrenos-aysen" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Venta de Terrenos en Aysén</a></li>
-          <li><a href="/servicios/parcelas-en-aysen" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Parcelas en Venta en Aysén</a></li>
-          <li><a href="/servicios/lotes-urbanos-aysen" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Lotes Urbanos en Aysén</a></li>
-          <li><a href="/servicios/inversion-terrenos-patagonia" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Inversión en Terrenos Patagonia</a></li>
-          <li><a href="/servicios/terrenos-agricolas-aysen" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Terrenos Agrícolas en Aysén</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4 class="font-semibold text-sm mb-3 text-[#EAB308]">Ubicaciones</h4>
-        <ul class="space-y-1">
-          <li><a href="/ubicaciones/terrenos-coyhaique" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Coyhaique</a></li>
-          <li><a href="/ubicaciones/terrenos-puerto-aysen" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Puerto Aysén</a></li>
-          <li><a href="/ubicaciones/terrenos-chile-chico" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Chile Chico</a></li>
-          <li><a href="/ubicaciones/terrenos-cochrane" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Cochrane</a></li>
-          <li><a href="/ubicaciones/terrenos-rio-ibanez" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Río Ibáñez</a></li>
-        </ul>
+      <div class="max-w-sm">
+        <p class="text-sm font-medium text-white">Recibe alertas de nuevas propiedades</p>
+        <form class="mt-3 flex gap-2" onsubmit="event.preventDefault()">
+          <div class="relative flex-1">
+            <svg class="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-stone-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"/></svg>
+            <input type="email" placeholder="Tu email" class="w-full rounded-lg border border-white/10 bg-white/5 py-2.5 pl-10 pr-3 text-sm text-white placeholder-stone-500 outline-none transition focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500">
+          </div>
+          <button type="submit" class="shrink-0 rounded-lg bg-emerald-600 px-4 py-2.5 text-sm font-medium text-white transition hover:bg-emerald-500">Suscribir</button>
+        </form>
       </div>
     </div>
-    <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-500 text-xs">
-      <p>&copy; 2026 Terrenos en Aysén SpA. Todos los derechos reservados.</p>
+    <div class="grid gap-8 pt-10 sm:grid-cols-2 lg:grid-cols-4">
+      <div>
+        <h3 class="mb-4 text-xs font-semibold uppercase tracking-wider text-stone-500">Localidades</h3>
+        <ul class="space-y-2.5">
+          <li><a href="/localidades/coyhaique/" class="group/link flex items-center gap-2 text-sm text-stone-400 transition-colors hover:text-white"><svg class="size-3 text-stone-600 transition-colors group-hover/link:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>Coyhaique</a></li>
+          <li><a href="/localidades/puerto-aysen/" class="group/link flex items-center gap-2 text-sm text-stone-400 transition-colors hover:text-white"><svg class="size-3 text-stone-600 transition-colors group-hover/link:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>Puerto Aysén</a></li>
+          <li><a href="/localidades/chile-chico/" class="group/link flex items-center gap-2 text-sm text-stone-400 transition-colors hover:text-white"><svg class="size-3 text-stone-600 transition-colors group-hover/link:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>Chile Chico</a></li>
+          <li><a href="/localidades/cochrane/" class="group/link flex items-center gap-2 text-sm text-stone-400 transition-colors hover:text-white"><svg class="size-3 text-stone-600 transition-colors group-hover/link:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>Cochrane</a></li>
+          <li><a href="/localidades/futaleufu/" class="group/link flex items-center gap-2 text-sm text-stone-400 transition-colors hover:text-white"><svg class="size-3 text-stone-600 transition-colors group-hover/link:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>Futaleufú</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="mb-4 text-xs font-semibold uppercase tracking-wider text-stone-500">Tipos de Propiedad</h3>
+        <ul class="space-y-2.5">
+          <li><a href="/venta/coyhaique/casas/" class="text-sm text-stone-400 transition-colors hover:text-white">Casas</a></li>
+          <li><a href="/venta/coyhaique/departamentos/" class="text-sm text-stone-400 transition-colors hover:text-white">Departamentos</a></li>
+          <li><a href="/venta/coyhaique/parcelas/" class="text-sm text-stone-400 transition-colors hover:text-white">Parcelas</a></li>
+          <li><a href="/venta/coyhaique/terrenos/" class="text-sm text-stone-400 transition-colors hover:text-white">Terrenos</a></li>
+          <li><a href="/venta/coyhaique/campos/" class="text-sm text-stone-400 transition-colors hover:text-white">Campos</a></li>
+          <li><a href="/venta/coyhaique/cabanas/" class="text-sm text-stone-400 transition-colors hover:text-white">Cabañas</a></li>
+          <li><a href="/venta/coyhaique/comercial/" class="text-sm text-stone-400 transition-colors hover:text-white">Comercial</a></li>
+          <li><a href="/venta/coyhaique/lodges/" class="text-sm text-stone-400 transition-colors hover:text-white">Lodges</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="mb-4 text-xs font-semibold uppercase tracking-wider text-stone-500">Recursos</h3>
+        <ul class="space-y-2.5">
+          <li><a href="/guia/" class="text-sm text-stone-400 transition-colors hover:text-white">Guías</a></li>
+          <li><a href="/blog/" class="text-sm text-stone-400 transition-colors hover:text-white">Blog</a></li>
+          <li><a href="/localidades/" class="text-sm text-stone-400 transition-colors hover:text-white">Localidades</a></li>
+          <li><a href="/publicar-propiedad/" class="text-sm text-stone-400 transition-colors hover:text-white">Publicar Propiedad</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="mb-4 text-xs font-semibold uppercase tracking-wider text-stone-500">Empresa</h3>
+        <ul class="space-y-2.5">
+          <li><a href="/nosotros/" class="text-sm text-stone-400 transition-colors hover:text-white">Nosotros</a></li>
+          <li><a href="/contacto/" class="text-sm text-stone-400 transition-colors hover:text-white">Contacto</a></li>
+        </ul>
+        <div class="mt-6 flex gap-3">
+          <a href="#" class="flex size-9 items-center justify-center rounded-lg bg-white/5 text-stone-500 transition-colors hover:bg-white/10 hover:text-white" aria-label="Instagram">
+            <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Zm1.5-4.87h.01"/></svg>
+          </a>
+          <a href="#" class="flex size-9 items-center justify-center rounded-lg bg-white/5 text-stone-500 transition-colors hover:bg-white/10 hover:text-white" aria-label="Facebook">
+            <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://wa.me/56987654321" class="flex size-9 items-center justify-center rounded-lg bg-white/5 text-stone-500 transition-colors hover:bg-white/10 hover:text-white" aria-label="WhatsApp">
+            <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="mt-10 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 sm:flex-row">
+      <p class="text-xs text-stone-600">&copy; 2026 Terrenos en Aysén. Todos los derechos reservados.</p>
+      <div class="flex gap-4 text-xs text-stone-600">
+        <a href="/terminos/" class="hover:text-stone-400">Términos</a>
+        <a href="/privacidad/" class="hover:text-stone-400">Privacidad</a>
+      </div>
     </div>
   </div>
 </footer>
-  <a href="https://wa.me/+56987654321?text=Hola%2C%20me%20interesa%20consultar%20sobre%20terrenos%20en%20Ays%C3%A9n" target="_blank" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition-colors no-underline" aria-label="WhatsApp">
-  <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-</a>
+<script is:inline>
+// Favorite button functionality
+function initFav(){document.querySelectorAll(".fav-btn").forEach(e=>{if(e.dataset.favInit)return;e.dataset.favInit="1";const s=e.dataset.slug??"",sl=e.dataset.saveLabel??"Guardado",sv=e.dataset.savedLabel??"Guardar";function d(){try{return JSON.parse(localStorage.getItem("ta_favorites")??"[]")}catch{return[]}}function u(t){localStorage.setItem("ta_favorites",JSON.stringify(t))}function o(t){e.classList.toggle("is-saved",t),e.setAttribute("aria-label",t?sv:sl),e.querySelector(".fav-icon")?.classList.toggle("text-rose-500",t)}o(d().includes(s)),e.addEventListener("click",t=>{t.preventDefault(),t.stopPropagation();const a=d(),c=a.indexOf(s);c>=0?(a.splice(c,1),o(!1)):(a.push(s),o(!0)),u(a)})})}
+document.readyState==="loading"?document.addEventListener("DOMContentLoaded",initFav):initFav();
+document.addEventListener("astro:page-load",initFav);
+</script>
+<script is:inline>
+// Gallery lightbox functionality
+let galleryIdx=0;function galleryNav(d){document.querySelectorAll(".property-gallery").forEach(g=>{const imgs=JSON.parse(g.dataset.images??"[]"),alts=JSON.parse(g.dataset.alts??"[]");if(!imgs.length)return;galleryIdx=(galleryIdx+d%imgs.length+imgs.length)%imgs.length;const lbImg=g.querySelector(".gallery-lightbox-img"),counter=g.querySelector(".gallery-counter"),mainImg=g.querySelector(".gallery-main-img");lbImg.style.opacity="0";const tmp=new Image;tmp.onload=()=>{lbImg.src=imgs[galleryIdx];lbImg.alt=alts[galleryIdx]||"";lbImg.style.opacity="1"};tmp.onerror=()=>{lbImg.src=imgs[galleryIdx];lbImg.style.opacity="0.5"};tmp.src=imgs[galleryIdx];if(counter)counter.textContent=galleryIdx+1+" / "+imgs.length;g.querySelectorAll(".gallery-lb-dot").forEach((dot,i)=>{dot.classList.toggle("bg-white",i===galleryIdx);dot.classList.toggle("scale-125",i===galleryIdx);dot.classList.toggle("bg-white/40",i!==galleryIdx)});if(mainImg)mainImg.src=imgs[galleryIdx]})}
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll(".property-gallery").forEach(g=>{const imgs=JSON.parse(g.dataset.images??"[]"),alts=JSON.parse(g.dataset.alts??"[]");if(!imgs.length)return;const lbImg=g.querySelector(".gallery-lightbox-img"),counter=g.querySelector(".gallery-counter"),dots=g.querySelector(".gallery-lb-dots"),lb=g.querySelector(".gallery-lightbox");if(imgs[0]&&lbImg){lbImg.src=imgs[0];lbImg.alt=alts[0]||""}if(counter)counter.textContent="1 / "+imgs.length;if(dots)imgs.forEach((_,i)=>{const dot=document.createElement("button");dot.className="gallery-lb-dot size-2 rounded-full bg-white/40 transition";dot.dataset.index=i;dot.addEventListener("click",()=>{galleryIdx=i;galleryNav(0)});dots.appendChild(dot)});const mainDiv=g.querySelector(".gallery-main");if(mainDiv)mainDiv.addEventListener("click",()=>{galleryIdx=0;lb?.classList.remove("hidden");document.body.style.overflow="hidden"});lb?.addEventListener("click",e=>{if(e.target===lb||e.target.classList.contains("gallery-lb-container")){lb.classList.add("hidden");document.body.style.overflow=""}})});document.addEventListener("keydown",e=>{const lb=document.querySelector(".gallery-lightbox");if(!lb||lb.classList.contains("hidden"))return;if(e.key==="Escape"){lb.classList.add("hidden");document.body.style.overflow=""}if(e.key==="ArrowLeft")galleryNav(-1);if(e.key==="ArrowRight")galleryNav(1)})});
+</script>
+<!-- Google Analytics -->
+<script is:inline>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+gtag('js',new Date());gtag('config','G-XXXXXXXXXX');
+</script>
+<script is:inline src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" async></script>
+<!-- Counter animation -->
+<script is:inline>
+const counters=document.querySelectorAll('.stat-counter');
+const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){const t=parseInt(e.target.dataset.target);let c=0;const inc=Math.ceil(t/60);const timer=setInterval(()=>{c+=inc;if(c>=t){c=t;clearInterval(timer)}e.target.textContent=c.toLocaleString('es-CL')},25);observer.unobserve(e.target)}})});
+counters.forEach(c=>observer.observe(c));
+</script>
 </body>
-</html>

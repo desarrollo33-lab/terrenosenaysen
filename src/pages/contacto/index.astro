@@ -1,168 +1,213 @@
 ---
-import '../../app.css';
+import "../../app.css"
+
 ---
-<!DOCTYPE html>
-<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
   <title>Contacto | Terrenos en Aysén</title>
-  <meta name="description" content="Contáctanos para consultar sobre terrenos, parcelas y lotes en la Región de Aysén. Oficina en Coyhaique." />
-  <link rel="canonical" href="https://terrenosenaysen.cl/contacto" />
-  <meta property="og:title" content="Contacto | Terrenos en Aysén" />
-  <meta property="og:description" content="Contáctanos para consultar sobre terrenos, parcelas y lotes en la Región de Aysén. Oficina en Coyhaique." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://terrenosenaysen.cl/contacto" />
-  <meta property="og:locale" content="es_CL" />
-  <meta property="og:site_name" content="Terrenos en Aysén" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"RealEstateAgent","name":"Terrenos en Aysén SpA","url":"https://terrenosenaysen.cl","telephone":"+56 9 8765 4321","email":"info@terrenosenaysen.cl","address":{"@type":"PostalAddress","streetAddress":"Av. Libertador Bernardo O'Higgins 345","addressLocality":"Coyhaique","addressRegion":"Aysén","postalCode":"5950000","addressCountry":"CL"},"geo":{"@type":"GeoCoordinates","latitude":-45.5714,"longitude":-72.0682},"openingHoursSpecification":"Mo-Fr 09:00-19:00, Sa 10:00-14:00","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"156"},"areaServed":{"@type":"City","name":"Aysén"},"priceRange":"$15M - $1.5B CLP"}</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contáctanos para consultas sobre propiedades en la Patagonia chilena. Estamos aquí para ayudarte.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://terrenosenaysen.cl/contacto/">
+  <meta property="og:title" content="Contacto | Terrenos en Aysén">
+  <meta property="og:description" content="Contáctanos para consultas sobre propiedades en la Patagonia chilena. Estamos aquí para ayudarte.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://terrenosenaysen.cl/contacto/">
+  <meta property="og:image" content="https://og-image.vercel.app/Contacto%20%7C%20Terrenos%20en%20Ays%C3%A9n.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fterrenosenaysen.cl%2Ffavicon.svg">
+  <meta property="og:site_name" content="Terrenos en Aysén">
+  <meta property="og:locale" content="es_CL">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contacto | Terrenos en Aysén">
+  <meta name="twitter:description" content="Contáctanos para consultas sobre propiedades en la Patagonia chilena. Estamos aquí para ayudarte.">
+  <meta name="twitter:image" content="https://og-image.vercel.app/Contacto%20%7C%20Terrenos%20en%20Ays%C3%A9n.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fterrenosenaysen.cl%2Ffavicon.svg">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 </head>
-<body class="min-h-screen flex flex-col bg-white text-gray-900">
-  <header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-16">
-      <a href="/" class="flex items-center gap-2 no-underline">
-        <div class="w-9 h-9 bg-[#166534] rounded-lg flex items-center justify-center">
-          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21V9l9-6 9 6v12a1 1 0 01-1 1h-5a1 1 0 01-1-1v-4a1 1 0 00-1-1h-2a1 1 0 00-1 1v4a1 1 0 01-1 1H4a1 1 0 01-1-1z"/></svg>
-        </div>
-        <div>
-          <span class="font-bold text-sm text-[#166534] block leading-tight">Terrenos en Aysén</span>
-          <span class="text-xs text-[#EAB308] block leading-tight">Patagonia Chilena</span>
-        </div>
+<body class="flex min-h-screen flex-col bg-stone-50 text-stone-900 antialiased">
+<header class="sticky top-0 z-50 w-full border-b border-stone-200/60 bg-white/80 backdrop-blur-xl backdrop-saturate-150 transition-shadow duration-300" id="site-header">
+  <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 lg:px-8">
+    <a href="/" class="group flex items-center gap-2.5">
+      <div class="flex size-9 items-center justify-center rounded-lg bg-emerald-800 transition-colors group-hover:bg-emerald-700">
+        <svg class="size-5 text-emerald-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m8 3 4 8 5-5 5 15H2z"/></svg>
+      </div>
+      <div class="flex flex-col">
+        <span class="font-display text-lg leading-none tracking-tight text-emerald-900">Terrenos en Aysén</span>
+        <span class="text-[10px] font-medium uppercase tracking-[0.2em] text-stone-400">Patagonia Chile</span>
+      </div>
+    </a>
+    <nav class="hidden items-center gap-1 lg:flex">
+      <a href="/venta/" class="rounded-lg px-3.5 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-emerald-50 hover:text-emerald-800">Venta</a>
+      <a href="/localidades/" class="rounded-lg px-3.5 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-emerald-50 hover:text-emerald-800">Localidades</a>
+      <a href="/guia/" class="rounded-lg px-3.5 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-emerald-50 hover:text-emerald-800">Guías</a>
+      <a href="/blog/" class="rounded-lg px-3.5 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-emerald-50 hover:text-emerald-800">Blog</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="/publicar-propiedad/" class="hidden items-center gap-2 rounded-lg bg-emerald-800 px-4 py-2 text-sm font-medium text-white shadow-sm transition-all hover:bg-emerald-700 hover:shadow-md sm:inline-flex">
+        <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+        Publicar
       </a>
-      <nav class="hidden lg:flex items-center gap-1">
-        <a href="/" class="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50 hover:text-[#166534] no-underline transition-colors">Inicio</a>
-        <a href="/servicios" class="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50 hover:text-[#166534] no-underline transition-colors">Servicios</a>
-        <a href="/ubicaciones" class="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50 hover:text-[#166534] no-underline transition-colors">Ubicaciones</a>
-        <a href="/blog" class="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50 hover:text-[#166534] no-underline transition-colors">Blog</a>
-        <a href="/contacto" class="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50 hover:text-[#166534] no-underline transition-colors">Contacto</a>
-      </nav>
-      <a href="https://wa.me/+56987654321?text=Hola%2C%20me%20interesa%20consultar%20sobre%20terrenos%20en%20Ays%C3%A9n" target="_blank" class="bg-[#166534] text-white font-semibold px-4 py-2 rounded-lg hover:bg-[#14532D] transition-colors no-underline text-sm inline-flex items-center gap-2">
-        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        Consulta Gratis
-      </a>
+      <button type="button" class="inline-flex size-10 items-center justify-center rounded-lg text-stone-500 transition-colors hover:bg-stone-100 hover:text-stone-700 lg:hidden" id="mobile-menu-btn" aria-label="Menú">
+        <svg class="size-5" id="menu-icon-open" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 5h16M4 12h16M4 19h16"/></svg>
+        <svg class="hidden size-5" id="menu-icon-close" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
     </div>
   </div>
+  <div class="hidden border-t border-stone-100 bg-white lg:hidden" id="mobile-menu">
+    <nav class="mx-auto max-w-7xl space-y-1 px-5 py-4">
+      <a href="/venta/" class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-stone-700 transition-colors hover:bg-emerald-50 hover:text-emerald-800">
+        <svg class="size-4 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5"/></svg>
+        Venta
+      </a>
+      <a href="/localidades/" class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-stone-700 transition-colors hover:bg-emerald-50 hover:text-emerald-800">
+        <svg class="size-4 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+        Localidades
+      </a>
+      <a href="/guia/" class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-stone-700 transition-colors hover:bg-emerald-50 hover:text-emerald-800">
+        <svg class="size-4 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/></svg>
+        Guías
+      </a>
+      <a href="/blog/" class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-stone-700 transition-colors hover:bg-emerald-50 hover:text-emerald-800">
+        <svg class="size-4 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Z"/></svg>
+        Blog
+      </a>
+      <div class="pt-2">
+        <a href="/publicar-propiedad/" class="flex w-full items-center justify-center gap-2 rounded-lg bg-emerald-800 px-4 py-2.5 text-sm font-medium text-white">
+          <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+          Publicar Propiedad
+        </a>
+      </div>
+    </nav>
+  </div>
 </header>
-  <div class="h-16"></div>
-  <main class="flex-1">
-    
-  <section class="bg-gradient-to-br from-[#166534] to-[#052E16] text-white py-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h1 class="text-4xl font-extrabold mb-4">Contáctanos</h1>
-      <p class="text-xl text-gray-300 max-w-2xl mx-auto">Estamos en Coyhaique para ayudarte a encontrar el terreno perfecto en la Patagonia.</p>
+<script>
+const btn=document.getElementById('mobile-menu-btn'),menu=document.getElementById('mobile-menu'),
+openIcon=document.getElementById('menu-icon-open'),closeIcon=document.getElementById('menu-icon-close');
+btn?.addEventListener('click',()=>{menu?.classList.toggle('hidden');openIcon?.classList.toggle('hidden');closeIcon?.classList.toggle('hidden')});
+const header=document.getElementById('site-header');
+window.addEventListener('scroll',()=>{window.scrollY>8?header?.classList.add('shadow-sm'):header?.classList.remove('shadow-sm')},{passive:true});
+</script>
+<main class="flex-1 py-12">
+  <div class="mx-auto max-w-2xl px-5 lg:px-8">
+    <h1 class="text-3xl font-bold text-stone-900">Contacto</h1>
+    <p class="mt-4 text-stone-600">¿Tienes preguntas sobre alguna propiedad? ¿Necesitas asesoría? Escríbenos y te responderemos a la brevedad.</p>
+    <div class="mt-8 grid gap-4 sm:grid-cols-2">
+      <div class="rounded-xl border border-stone-200 p-5">
+        <h3 class="font-semibold text-stone-900">WhatsApp</h3>
+        <a href="https://wa.me/56987654321" class="mt-1 text-sm text-emerald-700">+56 9 8765 4321</a>
+      </div>
+      <div class="rounded-xl border border-stone-200 p-5">
+        <h3 class="font-semibold text-stone-900">Email</h3>
+        <a href="mailto:info@terrenosenaysen.cl" class="mt-1 text-sm text-emerald-700">info@terrenosenaysen.cl</a>
+      </div>
     </div>
-  </section>
-  <section class="py-16">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div>
-          <h2 class="text-2xl font-bold mb-6">Información de Contacto</h2>
-          <div class="space-y-4">
-            <div class="flex items-center gap-3">
-              <div class="w-10 h-10 bg-[#F0FDF4] rounded-lg flex items-center justify-center">
-                <svg class="w-5 h-5 text-[#166534]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-              </div>
-              <div>
-                <p class="font-semibold text-gray-900">Av. Libertador Bernardo O'Higgins 345</p>
-                <p class="text-sm text-gray-500">Coyhaique, Aysén</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="w-10 h-10 bg-[#F0FDF4] rounded-lg flex items-center justify-center">
-                <svg class="w-5 h-5 text-[#166534]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-              </div>
-              <div>
-                <p class="font-semibold text-gray-900">+56 9 8765 4321</p>
-                <p class="text-sm text-gray-500">WhatsApp disponible</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="w-10 h-10 bg-[#F0FDF4] rounded-lg flex items-center justify-center">
-                <svg class="w-5 h-5 text-[#166534]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-              </div>
-              <div>
-                <p class="font-semibold text-gray-900">info@terrenosenaysen.cl</p>
-                <p class="text-sm text-gray-500">Respuesta en 24 horas</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="w-10 h-10 bg-[#F0FDF4] rounded-lg flex items-center justify-center">
-                <svg class="w-5 h-5 text-[#166534]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-              </div>
-              <div>
-                <p class="font-semibold text-gray-900">Mo-Fr 09:00-19:00, Sa 10:00-14:00</p>
-                <p class="text-sm text-gray-500">Oficina en Coyhaique</p>
-              </div>
-            </div>
+    <form class="mt-8 space-y-4" onsubmit="event.preventDefault()">
+      <div class="grid gap-4 sm:grid-cols-2">
+        <div><label class="block text-sm font-medium text-stone-700">Nombre</label><input type="text" class="mt-1 w-full rounded-lg border border-stone-200 px-4 py-2.5 text-sm outline-none focus:border-emerald-500"></div>
+        <div><label class="block text-sm font-medium text-stone-700">Email</label><input type="email" class="mt-1 w-full rounded-lg border border-stone-200 px-4 py-2.5 text-sm outline-none focus:border-emerald-500"></div>
+      </div>
+      <div><label class="block text-sm font-medium text-stone-700">Asunto</label><input type="text" class="mt-1 w-full rounded-lg border border-stone-200 px-4 py-2.5 text-sm outline-none focus:border-emerald-500"></div>
+      <div><label class="block text-sm font-medium text-stone-700">Mensaje</label><textarea rows="4" class="mt-1 w-full rounded-lg border border-stone-200 px-4 py-2.5 text-sm outline-none focus:border-emerald-500"></textarea></div>
+      <button type="submit" class="w-full rounded-xl bg-emerald-700 px-6 py-3 text-sm font-semibold text-white transition hover:bg-emerald-800">Enviar Mensaje</button>
+    </form>
+  </div>
+</main>
+<footer class="relative overflow-hidden bg-emerald-950 text-stone-300">
+  <div class="h-px w-full bg-gradient-to-r from-transparent via-emerald-500/40 to-transparent"></div>
+  <div class="mx-auto max-w-7xl px-5 pb-10 pt-16 lg:px-8">
+    <div class="flex flex-col gap-10 border-b border-white/10 pb-10 lg:flex-row lg:items-end lg:justify-between">
+      <div class="max-w-md">
+        <a href="/" class="group inline-flex items-center gap-2.5">
+          <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-800">
+            <svg class="size-5 text-emerald-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m8 3 4 8 5-5 5 15H2z"/></svg>
           </div>
-        </div>
-        <div>
-          <h2 class="text-2xl font-bold mb-6">Envíanos un Mensaje</h2>
-          <form class="space-y-4" action="#" method="POST">
-            <div>
-              <label class="block text-sm font-medium text-gray-700 mb-1">Nombre</label>
-              <input type="text" required class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#166534] focus:border-transparent outline-none" placeholder="Tu nombre" />
-            </div>
-            <div>
-              <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
-              <input type="email" required class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#166534] focus:border-transparent outline-none" placeholder="tu@email.com" />
-            </div>
-            <div>
-              <label class="block text-sm font-medium text-gray-700 mb-1">Teléfono</label>
-              <input type="tel" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#166534] focus:border-transparent outline-none" placeholder="+56 9 ..." />
-            </div>
-            <div>
-              <label class="block text-sm font-medium text-gray-700 mb-1">Mensaje</label>
-              <textarea rows="4" required class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#166534] focus:border-transparent outline-none" placeholder="¿Qué tipo de terreno buscas?"></textarea>
-            </div>
-            <button type="submit" class="w-full bg-[#166534] text-white font-bold py-3 rounded-xl hover:bg-[#14532D] transition-colors">Enviar Mensaje</button>
-          </form>
-        </div>
+          <div class="flex flex-col">
+            <span class="font-display text-xl text-white">Terrenos en Aysén</span>
+            <span class="text-[10px] font-medium uppercase tracking-[0.2em] text-stone-500">Patagonia Chile</span>
+          </div>
+        </a>
+        <p class="mt-4 text-sm leading-relaxed text-stone-400">Tu portal inmobiliario en la Patagonia Chilena. 16 localidades a lo largo de la Carretera Austral en la Región de Aysén.</p>
+      </div>
+      <div class="max-w-sm">
+        <p class="text-sm font-medium text-white">Recibe alertas de nuevas propiedades</p>
+        <form class="mt-3 flex gap-2" onsubmit="event.preventDefault()">
+          <div class="relative flex-1">
+            <svg class="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-stone-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"/></svg>
+            <input type="email" placeholder="Tu email" class="w-full rounded-lg border border-white/10 bg-white/5 py-2.5 pl-10 pr-3 text-sm text-white placeholder-stone-500 outline-none transition focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500">
+          </div>
+          <button type="submit" class="shrink-0 rounded-lg bg-emerald-600 px-4 py-2.5 text-sm font-medium text-white transition hover:bg-emerald-500">Suscribir</button>
+        </form>
       </div>
     </div>
-  </section>
-  </main>
-  <footer class="bg-[#14532D] text-white py-16">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-      <div class="md:col-span-2">
-        <h3 class="font-bold text-lg mb-3">Terrenos en Aysén SpA</h3>
-        <p class="text-gray-400 text-sm leading-relaxed mb-4">Av. Libertador Bernardo O'Higgins 345, Coyhaique, Aysén</p>
-        <p class="text-gray-400 text-sm">+56 9 8765 4321 | info@terrenosenaysen.cl</p>
-        <p class="text-gray-400 text-sm mt-1">Mo-Fr 09:00-19:00, Sa 10:00-14:00</p>
-      </div>
+    <div class="grid gap-8 pt-10 sm:grid-cols-2 lg:grid-cols-4">
       <div>
-        <h4 class="font-semibold text-sm mb-3 text-[#EAB308]">Servicios</h4>
-        <ul class="space-y-1">
-          <li><a href="/servicios/venta-terrenos-aysen" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Venta de Terrenos en Aysén</a></li>
-          <li><a href="/servicios/parcelas-en-aysen" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Parcelas en Venta en Aysén</a></li>
-          <li><a href="/servicios/lotes-urbanos-aysen" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Lotes Urbanos en Aysén</a></li>
-          <li><a href="/servicios/inversion-terrenos-patagonia" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Inversión en Terrenos Patagonia</a></li>
-          <li><a href="/servicios/terrenos-agricolas-aysen" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Terrenos Agrícolas en Aysén</a></li>
+        <h3 class="mb-4 text-xs font-semibold uppercase tracking-wider text-stone-500">Localidades</h3>
+        <ul class="space-y-2.5">
+          <li><a href="/localidades/coyhaique/" class="group/link flex items-center gap-2 text-sm text-stone-400 transition-colors hover:text-white"><svg class="size-3 text-stone-600 transition-colors group-hover/link:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>Coyhaique</a></li>
+          <li><a href="/localidades/puerto-aysen/" class="group/link flex items-center gap-2 text-sm text-stone-400 transition-colors hover:text-white"><svg class="size-3 text-stone-600 transition-colors group-hover/link:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>Puerto Aysén</a></li>
+          <li><a href="/localidades/chile-chico/" class="group/link flex items-center gap-2 text-sm text-stone-400 transition-colors hover:text-white"><svg class="size-3 text-stone-600 transition-colors group-hover/link:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>Chile Chico</a></li>
+          <li><a href="/localidades/cochrane/" class="group/link flex items-center gap-2 text-sm text-stone-400 transition-colors hover:text-white"><svg class="size-3 text-stone-600 transition-colors group-hover/link:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>Cochrane</a></li>
+          <li><a href="/localidades/futaleufu/" class="group/link flex items-center gap-2 text-sm text-stone-400 transition-colors hover:text-white"><svg class="size-3 text-stone-600 transition-colors group-hover/link:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>Futaleufú</a></li>
         </ul>
       </div>
       <div>
-        <h4 class="font-semibold text-sm mb-3 text-[#EAB308]">Ubicaciones</h4>
-        <ul class="space-y-1">
-          <li><a href="/ubicaciones/terrenos-coyhaique" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Coyhaique</a></li>
-          <li><a href="/ubicaciones/terrenos-puerto-aysen" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Puerto Aysén</a></li>
-          <li><a href="/ubicaciones/terrenos-chile-chico" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Chile Chico</a></li>
-          <li><a href="/ubicaciones/terrenos-cochrane" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Cochrane</a></li>
-          <li><a href="/ubicaciones/terrenos-rio-ibanez" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Río Ibáñez</a></li>
+        <h3 class="mb-4 text-xs font-semibold uppercase tracking-wider text-stone-500">Tipos de Propiedad</h3>
+        <ul class="space-y-2.5">
+          <li><a href="/venta/coyhaique/casas/" class="text-sm text-stone-400 transition-colors hover:text-white">Casas</a></li>
+          <li><a href="/venta/coyhaique/departamentos/" class="text-sm text-stone-400 transition-colors hover:text-white">Departamentos</a></li>
+          <li><a href="/venta/coyhaique/parcelas/" class="text-sm text-stone-400 transition-colors hover:text-white">Parcelas</a></li>
+          <li><a href="/venta/coyhaique/terrenos/" class="text-sm text-stone-400 transition-colors hover:text-white">Terrenos</a></li>
+          <li><a href="/venta/coyhaique/campos/" class="text-sm text-stone-400 transition-colors hover:text-white">Campos</a></li>
+          <li><a href="/venta/coyhaique/cabanas/" class="text-sm text-stone-400 transition-colors hover:text-white">Cabañas</a></li>
+          <li><a href="/venta/coyhaique/comercial/" class="text-sm text-stone-400 transition-colors hover:text-white">Comercial</a></li>
+          <li><a href="/venta/coyhaique/lodges/" class="text-sm text-stone-400 transition-colors hover:text-white">Lodges</a></li>
         </ul>
       </div>
+      <div>
+        <h3 class="mb-4 text-xs font-semibold uppercase tracking-wider text-stone-500">Recursos</h3>
+        <ul class="space-y-2.5">
+          <li><a href="/guia/" class="text-sm text-stone-400 transition-colors hover:text-white">Guías</a></li>
+          <li><a href="/blog/" class="text-sm text-stone-400 transition-colors hover:text-white">Blog</a></li>
+          <li><a href="/localidades/" class="text-sm text-stone-400 transition-colors hover:text-white">Localidades</a></li>
+          <li><a href="/publicar-propiedad/" class="text-sm text-stone-400 transition-colors hover:text-white">Publicar Propiedad</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="mb-4 text-xs font-semibold uppercase tracking-wider text-stone-500">Empresa</h3>
+        <ul class="space-y-2.5">
+          <li><a href="/nosotros/" class="text-sm text-stone-400 transition-colors hover:text-white">Nosotros</a></li>
+          <li><a href="/contacto/" class="text-sm text-stone-400 transition-colors hover:text-white">Contacto</a></li>
+        </ul>
+        <div class="mt-6 flex gap-3">
+          <a href="#" class="flex size-9 items-center justify-center rounded-lg bg-white/5 text-stone-500 transition-colors hover:bg-white/10 hover:text-white" aria-label="Instagram">
+            <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Zm1.5-4.87h.01"/></svg>
+          </a>
+          <a href="#" class="flex size-9 items-center justify-center rounded-lg bg-white/5 text-stone-500 transition-colors hover:bg-white/10 hover:text-white" aria-label="Facebook">
+            <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://wa.me/56987654321" class="flex size-9 items-center justify-center rounded-lg bg-white/5 text-stone-500 transition-colors hover:bg-white/10 hover:text-white" aria-label="WhatsApp">
+            <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-500 text-xs">
-      <p>&copy; 2026 Terrenos en Aysén SpA. Todos los derechos reservados.</p>
+    <div class="mt-10 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 sm:flex-row">
+      <p class="text-xs text-stone-600">&copy; 2026 Terrenos en Aysén. Todos los derechos reservados.</p>
+      <div class="flex gap-4 text-xs text-stone-600">
+        <a href="/terminos/" class="hover:text-stone-400">Términos</a>
+        <a href="/privacidad/" class="hover:text-stone-400">Privacidad</a>
+      </div>
     </div>
   </div>
 </footer>
-  <a href="https://wa.me/+56987654321?text=Hola%2C%20me%20interesa%20consultar%20sobre%20terrenos%20en%20Ays%C3%A9n" target="_blank" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition-colors no-underline" aria-label="WhatsApp">
-  <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-</a>
+<script is:inline>
+// Favorite button functionality
+function initFav(){document.querySelectorAll(".fav-btn").forEach(e=>{if(e.dataset.favInit)return;e.dataset.favInit="1";const s=e.dataset.slug??"",sl=e.dataset.saveLabel??"Guardado",sv=e.dataset.savedLabel??"Guardar";function d(){try{return JSON.parse(localStorage.getItem("ta_favorites")??"[]")}catch{return[]}}function u(t){localStorage.setItem("ta_favorites",JSON.stringify(t))}function o(t){e.classList.toggle("is-saved",t),e.setAttribute("aria-label",t?sv:sl),e.querySelector(".fav-icon")?.classList.toggle("text-rose-500",t)}o(d().includes(s)),e.addEventListener("click",t=>{t.preventDefault(),t.stopPropagation();const a=d(),c=a.indexOf(s);c>=0?(a.splice(c,1),o(!1)):(a.push(s),o(!0)),u(a)})})}
+document.readyState==="loading"?document.addEventListener("DOMContentLoaded",initFav):initFav();
+document.addEventListener("astro:page-load",initFav);
+</script>
+<script is:inline>
+// Gallery lightbox functionality
+let galleryIdx=0;function galleryNav(d){document.querySelectorAll(".property-gallery").forEach(g=>{const imgs=JSON.parse(g.dataset.images??"[]"),alts=JSON.parse(g.dataset.alts??"[]");if(!imgs.length)return;galleryIdx=(galleryIdx+d%imgs.length+imgs.length)%imgs.length;const lbImg=g.querySelector(".gallery-lightbox-img"),counter=g.querySelector(".gallery-counter"),mainImg=g.querySelector(".gallery-main-img");lbImg.style.opacity="0";const tmp=new Image;tmp.onload=()=>{lbImg.src=imgs[galleryIdx];lbImg.alt=alts[galleryIdx]||"";lbImg.style.opacity="1"};tmp.onerror=()=>{lbImg.src=imgs[galleryIdx];lbImg.style.opacity="0.5"};tmp.src=imgs[galleryIdx];if(counter)counter.textContent=galleryIdx+1+" / "+imgs.length;g.querySelectorAll(".gallery-lb-dot").forEach((dot,i)=>{dot.classList.toggle("bg-white",i===galleryIdx);dot.classList.toggle("scale-125",i===galleryIdx);dot.classList.toggle("bg-white/40",i!==galleryIdx)});if(mainImg)mainImg.src=imgs[galleryIdx]})}
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll(".property-gallery").forEach(g=>{const imgs=JSON.parse(g.dataset.images??"[]"),alts=JSON.parse(g.dataset.alts??"[]");if(!imgs.length)return;const lbImg=g.querySelector(".gallery-lightbox-img"),counter=g.querySelector(".gallery-counter"),dots=g.querySelector(".gallery-lb-dots"),lb=g.querySelector(".gallery-lightbox");if(imgs[0]&&lbImg){lbImg.src=imgs[0];lbImg.alt=alts[0]||""}if(counter)counter.textContent="1 / "+imgs.length;if(dots)imgs.forEach((_,i)=>{const dot=document.createElement("button");dot.className="gallery-lb-dot size-2 rounded-full bg-white/40 transition";dot.dataset.index=i;dot.addEventListener("click",()=>{galleryIdx=i;galleryNav(0)});dots.appendChild(dot)});const mainDiv=g.querySelector(".gallery-main");if(mainDiv)mainDiv.addEventListener("click",()=>{galleryIdx=0;lb?.classList.remove("hidden");document.body.style.overflow="hidden"});lb?.addEventListener("click",e=>{if(e.target===lb||e.target.classList.contains("gallery-lb-container")){lb.classList.add("hidden");document.body.style.overflow=""}})});document.addEventListener("keydown",e=>{const lb=document.querySelector(".gallery-lightbox");if(!lb||lb.classList.contains("hidden"))return;if(e.key==="Escape"){lb.classList.add("hidden");document.body.style.overflow=""}if(e.key==="ArrowLeft")galleryNav(-1);if(e.key==="ArrowRight")galleryNav(1)})});
+</script>
 </body>
-</html>

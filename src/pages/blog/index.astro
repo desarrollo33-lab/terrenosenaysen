@@ -1,165 +1,425 @@
 ---
-import '../../app.css';
+import "../../app.css"
+
 ---
-<!DOCTYPE html>
-<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <title>Blog | Terrenos en Aysén - Guías y Noticias</title>
-  <meta name="description" content="Artículos, guías y noticias sobre compra de terrenos, parcelas y lotes en la Región de Aysén." />
-  <link rel="canonical" href="https://terrenosenaysen.cl/blog" />
-  <meta property="og:title" content="Blog | Terrenos en Aysén - Guías y Noticias" />
-  <meta property="og:description" content="Artículos, guías y noticias sobre compra de terrenos, parcelas y lotes en la Región de Aysén." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://terrenosenaysen.cl/blog" />
-  <meta property="og:locale" content="es_CL" />
-  <meta property="og:site_name" content="Terrenos en Aysén" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"RealEstateAgent","name":"Terrenos en Aysén SpA","url":"https://terrenosenaysen.cl","telephone":"+56 9 8765 4321","email":"info@terrenosenaysen.cl","address":{"@type":"PostalAddress","streetAddress":"Av. Libertador Bernardo O'Higgins 345","addressLocality":"Coyhaique","addressRegion":"Aysén","postalCode":"5950000","addressCountry":"CL"},"geo":{"@type":"GeoCoordinates","latitude":-45.5714,"longitude":-72.0682},"openingHoursSpecification":"Mo-Fr 09:00-19:00, Sa 10:00-14:00","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"156"},"areaServed":{"@type":"City","name":"Aysén"},"priceRange":"$15M - $1.5B CLP"}</script>
+
+  <title>Blog Inmobiliario | Terrenos en Aysén</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Artículos sobre el mercado inmobiliario en la Patagonia chilena. Datos de mercado, finanzas, inversiones y tendencias de la Región de Aysén.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://terrenosenaysen.cl/blog/">
+  <meta property="og:title" content="Blog Inmobiliario | Terrenos en Aysén">
+  <meta property="og:description" content="Artículos sobre el mercado inmobiliario en la Patagonia chilena. Datos de mercado, finanzas, inversiones y tendencias de la Región de Aysén.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://terrenosenaysen.cl/blog/">
+  <meta property="og:image" content="https://og-image.vercel.app/Blog%20Inmobiliario%20%7C%20Terrenos%20en%20Ays%C3%A9n.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fterrenosenaysen.cl%2Ffavicon.svg">
+  <meta property="og:site_name" content="Terrenos en Aysén">
+  <meta property="og:locale" content="es_CL">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Blog Inmobiliario | Terrenos en Aysén">
+  <meta name="twitter:description" content="Artículos sobre el mercado inmobiliario en la Patagonia chilena. Datos de mercado, finanzas, inversiones y tendencias de la Región de Aysén.">
+  <meta name="twitter:image" content="https://og-image.vercel.app/Blog%20Inmobiliario%20%7C%20Terrenos%20en%20Ays%C3%A9n.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fterrenosenaysen.cl%2Ffavicon.svg">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://terrenosenaysen.cl/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://terrenosenaysen.cl/blog/"}]}</script>
 </head>
-<body class="min-h-screen flex flex-col bg-white text-gray-900">
-  <header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-16">
-      <a href="/" class="flex items-center gap-2 no-underline">
-        <div class="w-9 h-9 bg-[#166534] rounded-lg flex items-center justify-center">
-          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21V9l9-6 9 6v12a1 1 0 01-1 1h-5a1 1 0 01-1-1v-4a1 1 0 00-1-1h-2a1 1 0 00-1 1v4a1 1 0 01-1 1H4a1 1 0 01-1-1z"/></svg>
-        </div>
-        <div>
-          <span class="font-bold text-sm text-[#166534] block leading-tight">Terrenos en Aysén</span>
-          <span class="text-xs text-[#EAB308] block leading-tight">Patagonia Chilena</span>
-        </div>
+<body class="flex min-h-screen flex-col bg-stone-50 text-stone-900 antialiased">
+<header class="sticky top-0 z-50 w-full border-b border-stone-200/60 bg-white/80 backdrop-blur-xl backdrop-saturate-150 transition-shadow duration-300" id="site-header">
+  <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 lg:px-8">
+    <a href="/" class="group flex items-center gap-2.5">
+      <div class="flex size-9 items-center justify-center rounded-lg bg-emerald-800 transition-colors group-hover:bg-emerald-700">
+        <svg class="size-5 text-emerald-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m8 3 4 8 5-5 5 15H2z"/></svg>
+      </div>
+      <div class="flex flex-col">
+        <span class="font-display text-lg leading-none tracking-tight text-emerald-900">Terrenos en Aysén</span>
+        <span class="text-[10px] font-medium uppercase tracking-[0.2em] text-stone-400">Patagonia Chile</span>
+      </div>
+    </a>
+    <nav class="hidden items-center gap-1 lg:flex">
+      <a href="/venta/" class="rounded-lg px-3.5 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-emerald-50 hover:text-emerald-800">Venta</a>
+      <a href="/localidades/" class="rounded-lg px-3.5 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-emerald-50 hover:text-emerald-800">Localidades</a>
+      <a href="/guia/" class="rounded-lg px-3.5 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-emerald-50 hover:text-emerald-800">Guías</a>
+      <a href="/blog/" class="rounded-lg px-3.5 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-emerald-50 hover:text-emerald-800">Blog</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="/publicar-propiedad/" class="hidden items-center gap-2 rounded-lg bg-emerald-800 px-4 py-2 text-sm font-medium text-white shadow-sm transition-all hover:bg-emerald-700 hover:shadow-md sm:inline-flex">
+        <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+        Publicar
       </a>
-      <nav class="hidden lg:flex items-center gap-1">
-        <a href="/" class="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50 hover:text-[#166534] no-underline transition-colors">Inicio</a>
-        <a href="/servicios" class="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50 hover:text-[#166534] no-underline transition-colors">Servicios</a>
-        <a href="/ubicaciones" class="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50 hover:text-[#166534] no-underline transition-colors">Ubicaciones</a>
-        <a href="/blog" class="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50 hover:text-[#166534] no-underline transition-colors">Blog</a>
-        <a href="/contacto" class="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50 hover:text-[#166534] no-underline transition-colors">Contacto</a>
-      </nav>
-      <a href="https://wa.me/+56987654321?text=Hola%2C%20me%20interesa%20consultar%20sobre%20terrenos%20en%20Ays%C3%A9n" target="_blank" class="bg-[#166534] text-white font-semibold px-4 py-2 rounded-lg hover:bg-[#14532D] transition-colors no-underline text-sm inline-flex items-center gap-2">
-        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        Consulta Gratis
+      <button type="button" class="inline-flex size-10 items-center justify-center rounded-lg text-stone-500 transition-colors hover:bg-stone-100 hover:text-stone-700 lg:hidden" id="mobile-menu-btn" aria-label="Menú">
+        <svg class="size-5" id="menu-icon-open" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 5h16M4 12h16M4 19h16"/></svg>
+        <svg class="hidden size-5" id="menu-icon-close" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="hidden border-t border-stone-100 bg-white lg:hidden" id="mobile-menu">
+    <nav class="mx-auto max-w-7xl space-y-1 px-5 py-4">
+      <a href="/venta/" class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-stone-700 transition-colors hover:bg-emerald-50 hover:text-emerald-800">
+        <svg class="size-4 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5"/></svg>
+        Venta
+      </a>
+      <a href="/localidades/" class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-stone-700 transition-colors hover:bg-emerald-50 hover:text-emerald-800">
+        <svg class="size-4 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+        Localidades
+      </a>
+      <a href="/guia/" class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-stone-700 transition-colors hover:bg-emerald-50 hover:text-emerald-800">
+        <svg class="size-4 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/></svg>
+        Guías
+      </a>
+      <a href="/blog/" class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-stone-700 transition-colors hover:bg-emerald-50 hover:text-emerald-800">
+        <svg class="size-4 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Z"/></svg>
+        Blog
+      </a>
+      <div class="pt-2">
+        <a href="/publicar-propiedad/" class="flex w-full items-center justify-center gap-2 rounded-lg bg-emerald-800 px-4 py-2.5 text-sm font-medium text-white">
+          <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+          Publicar Propiedad
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>
+<script>
+const btn=document.getElementById('mobile-menu-btn'),menu=document.getElementById('mobile-menu'),
+openIcon=document.getElementById('menu-icon-open'),closeIcon=document.getElementById('menu-icon-close');
+btn?.addEventListener('click',()=>{menu?.classList.toggle('hidden');openIcon?.classList.toggle('hidden');closeIcon?.classList.toggle('hidden')});
+const header=document.getElementById('site-header');
+window.addEventListener('scroll',()=>{window.scrollY>8?header?.classList.add('shadow-sm'):header?.classList.remove('shadow-sm')},{passive:true});
+</script>
+<main class="flex-1 py-12">
+  <div class="mx-auto max-w-7xl px-5 lg:px-8">
+    <h1 class="text-3xl font-bold text-stone-900">Blog</h1>
+    <p class="mt-2 text-stone-500">Artículos y análisis del mercado inmobiliario en la Patagonia</p>
+    <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <a href="/blog/comprar-terreno-patagonia-2026/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Guía para Comprar Terreno en la Patagonia 2026</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Todo lo que necesitas saber antes de comprar un terreno en la Patagonia chilena durante 2026.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/invertir-patagonia-guia/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Invertir en la Patagonia: Guía Completa</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Oportunidades de inversión inmobiliaria en la Región de Aysén y la Patagonia chilena.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/construir-casa-patagonia-guia/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Construir una Casa en la Patagonia: Guía 2026</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Requisitos, costos y consejos para construir tu casa en la Región de Aysén.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/comprar-propiedad-extranjero-chile/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Comprar Propiedad en Chile si Eres Extranjero</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Guía completa para compradores extranjeros de propiedades en Chile.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/derechos-de-agua-venta-terreno-chile/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Derechos de Agua al Vender Terreno en Chile</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Entiende los derechos de agua asociados a terrenos rurales en Chile.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/exencion-8000-uf-venta-propiedad/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Exención de Impuestos hasta 8.000 UF por Venta</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Cómo aprovechar la exención tributaria al vender propiedades en Chile.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/como-tasar-propiedad-patagonia/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Cómo Tasar una Propiedad en la Patagonia</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Métodos y factores para tasar correctamente tu propiedad en la Región de Aysén.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/costo-de-vida-coyhaique-2026/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Costo de Vida en Coyhaique 2026</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Análisis detallado del costo de vida en la capital regional de Aysén.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/mejores-meses-vender-propiedad-patagonia/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Mejores Meses para Vender Propiedad en la Patagonia</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Análisis estacional del mercado inmobiliario en la Región de Aysén.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/home-staging-casas-patagonia/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Home Staging para Casas en la Patagonia</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Técnicas de home staging adaptadas al mercado inmobiliario de la Patagonia.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/inversion-terrenos-conservacion-chile/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Inversión en Terrenos de Conservación en Chile</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Oportunidades de inversión en terrenos con fines de conservación en la Patagonia.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/departamentos-coyhaique-precios-analisis/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Departamentos en Coyhaique: Precios y Análisis</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Análisis de precios y tendencias del mercado de departamentos en Coyhaique.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/chile-vs-argentina-comprar-terreno-patagonia-2026/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Chile vs Argentina: Comprar Terreno en la Patagonia 2026</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Comparativa completa para comprar terrenos en la Patagonia chilena vs argentina.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/beneficios-tributarios-aysen-propietarios-2035/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Beneficios Tributarios en Aysén para Propietarios</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Ventajas tributarias de ser propietario en la Región de Aysén.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/comprar-propiedad-chile-compradores-americanos/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Comprar Propiedad en Chile: Guía para Americanos</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Guía específica para ciudadanos de Estados Unidos que quieren comprar propiedades en Chile.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/comprar-propiedad-chile-compradores-espanoles/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Comprar Propiedad en Chile: Guía para Españoles</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Guía específica para ciudadanos españoles que quieren comprar propiedades en Chile.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/comprar-propiedad-chile-compradores-alemanes/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Comprar Propiedad en Chile: Guía para Alemanes</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Guía específica para ciudadanos alemanes que quieren comprar propiedades en Chile.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/comprar-propiedad-chile-compradores-franceses/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Comprar Propiedad en Chile: Guía para Franceses</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Guía específica para ciudadanos franceses que quieren comprar propiedades en Chile.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/comprar-propiedad-chile-compradores-suizos/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Comprar Propiedad en Chile: Guía para Suizos</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Guía específica para ciudadanos suizos que quieren comprar propiedades en Chile.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/guia-conducir-lago-general-carrera/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Guía para Conducir al Lago General Carrera</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Rutas, condiciones y consejos para conducir hasta el Lago General Carrera.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/mercado-inmobiliario-aysen-2026/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Mercado Inmobiliario de Aysén 2026: Tendencias</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Análisis del mercado inmobiliario de la Región de Aysén para 2026.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/mejores-sectores-comprar-coyhaique/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Mejores Sectores para Comprar en Coyhaique</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Análisis de los mejores sectores y barrios para comprar propiedades en Coyhaique.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/terrenos-frente-rio-aysen/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Terrenos Frente a Río en Aysén: Guía de Compra</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Todo sobre la compra de terrenos con frente a río en la Región de Aysén.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/parcelas-urbanizadas-coyhaique/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Parcelas Urbanizadas en Coyhaique: Opciones 2026</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Catálogo de parcelas urbanizadas disponibles en Coyhaique durante 2026.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/propiedades-con-vista-lago-aysen/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Propiedades con Vista al Lago en Aysén</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Las mejores propiedades con vista a lagos en la Región de Aysén.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/arriendo-vs-compra-aysen-guia/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Arriendo vs Compra en Aysén: ¿Qué Conviene?</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Análisis financiero para decidir si te conviene arrendar o comprar en Aysén.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/financiamiento-no-bancario-terreno-chile/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Financiamiento No Bancario para Terrenos en Chile</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Alternativas al crédito bancario tradicional para financiar la compra de terrenos.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/seguros-propiedad-chile-guia/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Seguros para Propiedades en Chile: Guía Completa</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Tipos de seguros disponibles para proteger tu propiedad en Chile.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/aduana-trasladar-bienes-chile-argentina/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Aduana al Trasladar Bienes Chile-Argentina</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Trámites aduaneros para quienes se mudan entre Chile y Argentina.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/terrenos-productivos-aysen-inversion/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Terrenos Productivos en Aysén para Inversión</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Oportunidades de inversión en terrenos con potencial productivo en Aysén.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/servidumbres-paso-chile-guia-legal/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Servidumbres de Paso en Chile: Guía Legal</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Todo sobre las servidumbres de paso al comprar terrenos rurales en Chile.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/ley-de-copropiedad-chile-explicada/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Ley de Copropiedad en Chile Explicada</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Entiende la Ley de Copropiedad Inmobiliaria antes de comprar departamento.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/top-10-parcelas-aysen-2026/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Top 10 Parcelas en Venta en Aysén 2026</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Las mejores parcelas disponibles en la Región de Aysén durante 2026.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/sismos-construccion-aysen-normativa/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Normativa Sísmica para Construir en Aysén</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Requisitos de la normativa sísmica chilena aplicados a la Región de Aysén.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/energia-solar-patagonia-viable/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Energía Solar en la Patagonia: ¿Es Viable?</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Análisis de la viabilidad de paneles solares en la Región de Aysén.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/bosque-nativo-terreno-chile-proteccion/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Bosque Nativo y Terrenos en Chile: Protección</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Regulaciones sobre terrenos con bosque nativo en Chile y cómo afectan la compra.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/mercado-campos-ganaderos-aysen-2026/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Mercado de Campos Ganaderos en Aysén 2026</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Análisis del mercado de campos ganaderos en la Región de Aysén.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
+      </a>
+      <a href="/blog/oficinas-locales-coyhaique-precios/" class="group rounded-xl border border-stone-200 bg-white p-6 transition hover:border-emerald-300 hover:shadow-md">
+        <div class="text-xs text-emerald-700 font-medium">Artículo</div>
+        <h3 class="mt-2 font-semibold text-stone-900 group-hover:text-emerald-700 line-clamp-2">Oficinas y Locales en Coyhaique: Precios 2026</h3>
+        <p class="mt-2 text-sm text-stone-500 line-clamp-3">Análisis de precios de propiedades comerciales en Coyhaique.</p>
+        <span class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700">Leer más <svg class="size-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg></span>
       </a>
     </div>
   </div>
-</header>
-  <div class="h-16"></div>
-  <main class="flex-1">
-    
-  <section class="bg-gradient-to-br from-[#166534] to-[#052E16] text-white py-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h1 class="text-4xl font-extrabold mb-4">Blog de Terrenos en Aysén</h1>
-      <p class="text-xl text-gray-300 max-w-2xl mx-auto">Guías, noticias y consejos sobre compra de terrenos en la Patagonia chilena.</p>
-    </div>
-  </section>
-  <section class="py-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <a href="/blog/guia-completa-comprar-terreno-aysen-2026" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg transition-all">
-          <span class="text-xs font-medium text-[#EAB308] bg-[#FEF9C3] px-2 py-0.5 rounded-full">alta</span>
-          <h2 class="font-bold text-lg text-gray-900 mt-3 mb-2">Guía Completa para Comprar Terrenos en Aysén 2026</h2>
-          <p class="text-gray-500 text-sm">Todo lo que necesitas saber para comprar terrenos en Aysén: trámites, precios, requisitos legales y consejos de expertos.</p>
+</main>
+<footer class="relative overflow-hidden bg-emerald-950 text-stone-300">
+  <div class="h-px w-full bg-gradient-to-r from-transparent via-emerald-500/40 to-transparent"></div>
+  <div class="mx-auto max-w-7xl px-5 pb-10 pt-16 lg:px-8">
+    <div class="flex flex-col gap-10 border-b border-white/10 pb-10 lg:flex-row lg:items-end lg:justify-between">
+      <div class="max-w-md">
+        <a href="/" class="group inline-flex items-center gap-2.5">
+          <div class="flex size-10 items-center justify-center rounded-lg bg-emerald-800">
+            <svg class="size-5 text-emerald-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m8 3 4 8 5-5 5 15H2z"/></svg>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-display text-xl text-white">Terrenos en Aysén</span>
+            <span class="text-[10px] font-medium uppercase tracking-[0.2em] text-stone-500">Patagonia Chile</span>
+          </div>
         </a>
-        <a href="/blog/precios-terrenos-aysen-coyhaique-puerto-aysen" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg transition-all">
-          <span class="text-xs font-medium text-[#EAB308] bg-[#FEF9C3] px-2 py-0.5 rounded-full">alta</span>
-          <h2 class="font-bold text-lg text-gray-900 mt-3 mb-2">Precios de Terrenos en Aysén por Comuna 2026</h2>
-          <p class="text-gray-500 text-sm">Comparativa actualizada de precios de terrenos en Aysén: Coyhaique, Puerto Aysén, Chile Chico, Cochrane y Río Ibáñez.</p>
-        </a>
-        <a href="/blog/requisitos-legales-comprar-terreno-region-aysen" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg transition-all">
-          <span class="text-xs font-medium text-[#EAB308] bg-[#FEF9C3] px-2 py-0.5 rounded-full">alta</span>
-          <h2 class="font-bold text-lg text-gray-900 mt-3 mb-2">Requisitos Legales para Comprar Terreno en Aysén</h2>
-          <p class="text-gray-500 text-sm">Requisitos legales, documentos y trámites obligatorios para comprar un terreno en la Región de Aysén. Guía paso a paso.</p>
-        </a>
-        <a href="/blog/invertir-terrenos-patagonia-chilena-oportunidades" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg transition-all">
-          <span class="text-xs font-medium text-[#EAB308] bg-[#FEF9C3] px-2 py-0.5 rounded-full">alta</span>
-          <h2 class="font-bold text-lg text-gray-900 mt-3 mb-2">Invertir en Terrenos Patagonia: Oportunidades 2026</h2>
-          <p class="text-gray-500 text-sm">Análisis de oportunidades de inversión en terrenos patagónicos. Plusvalía, mejores zonas y proyecciones para Aysén.</p>
-        </a>
-        <a href="/blog/parcelas-ribera-lago-rio-aysen-para-comprar" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg transition-all">
-          <span class="text-xs font-medium text-[#EAB308] bg-[#FEF9C3] px-2 py-0.5 rounded-full">media</span>
-          <h2 class="font-bold text-lg text-gray-900 mt-3 mb-2">Parcelas con Vista a Lago y Río en Aysén</h2>
-          <p class="text-gray-500 text-sm">Las mejores parcelas con frente a lagos y ríos en Aysén. Lago General Carrera, río Simpson, río Baker y más.</p>
-        </a>
-        <a href="/blog/documentos-tramites-escritura-terreno-aysen" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg transition-all">
-          <span class="text-xs font-medium text-[#EAB308] bg-[#FEF9C3] px-2 py-0.5 rounded-full">media</span>
-          <h2 class="font-bold text-lg text-gray-900 mt-3 mb-2">Documentos y Trámites para Escriturar Terreno en Aysén</h2>
-          <p class="text-gray-500 text-sm">Lista completa de documentos y trámites para escriturar un terreno en Aysén. Conservador, notaría e inscripción.</p>
-        </a>
-        <a href="/blog/fundos-campos-agricolas-aysen-venta" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg transition-all">
-          <span class="text-xs font-medium text-[#EAB308] bg-[#FEF9C3] px-2 py-0.5 rounded-full">media</span>
-          <h2 class="font-bold text-lg text-gray-900 mt-3 mb-2">Fundos y Campos Agrícolas en Venta en Aysén</h2>
-          <p class="text-gray-500 text-sm">Fundos y campos agrícolas disponibles en Aysén. Terrenos con aptitud ganadera, pastizales y acceso a agua.</p>
-        </a>
-        <a href="/blog/verano-2026-terrenos-vacaciones-aysen" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg transition-all">
-          <span class="text-xs font-medium text-[#EAB308] bg-[#FEF9C3] px-2 py-0.5 rounded-full">media</span>
-          <h2 class="font-bold text-lg text-gray-900 mt-3 mb-2">Mejores Terrenos para Vacaciones en Aysén Este Verano</h2>
-          <p class="text-gray-500 text-sm">Los mejores terrenos y parcelas para vacaciones en Aysén. Zonas con mejor clima, acceso y vistas panorámicas.</p>
-        </a>
-        <a href="/blog/vivir-patagonia-coyhaique-vs-puerto-aysen" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg transition-all">
-          <span class="text-xs font-medium text-[#EAB308] bg-[#FEF9C3] px-2 py-0.5 rounded-full">baja</span>
-          <h2 class="font-bold text-lg text-gray-900 mt-3 mb-2">Vivir en la Patagonia: Coyhaique o Puerto Aysén</h2>
-          <p class="text-gray-500 text-sm">Comparativa de vida en Coyhaique vs Puerto Aysén: precios de terrenos, servicios, clima y calidad de vida.</p>
-        </a>
-        <a href="/blog/turismo-aysen-2026-inversion-inmobiliaria" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg transition-all">
-          <span class="text-xs font-medium text-[#EAB308] bg-[#FEF9C3] px-2 py-0.5 rounded-full">alta</span>
-          <h2 class="font-bold text-lg text-gray-900 mt-3 mb-2">Turismo en Aysén 2026: Oportunidades de Inversión Inmobiliaria</h2>
-          <p class="text-gray-500 text-sm">Cómo el boom turístico de Aysén genera oportunidades de inversión en terrenos y proyectos inmobiliarios.</p>
-        </a>
-        <a href="/blog/cerro-castillo-puerto-tranquilo-terrenos" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg transition-all">
-          <span class="text-xs font-medium text-[#EAB308] bg-[#FEF9C3] px-2 py-0.5 rounded-full">baja</span>
-          <h2 class="font-bold text-lg text-gray-900 mt-3 mb-2">Terrenos Cerca del Cerro Castillo y Puerto Tranquilo</h2>
-          <p class="text-gray-500 text-sm">Terrenos en venta cerca del Cerro Castillo y Puerto Tranquilo. Ubicaciones con vistas únicas en la Patagonia.</p>
-        </a>
-        <a href="/blog/comparativa-parcelas-lotes-campos-aysen" class="block bg-white border border-gray-200 rounded-2xl p-6 no-underline hover:shadow-lg transition-all">
-          <span class="text-xs font-medium text-[#EAB308] bg-[#FEF9C3] px-2 py-0.5 rounded-full">media</span>
-          <h2 class="font-bold text-lg text-gray-900 mt-3 mb-2">Parcelas vs Lotes vs Campos: Cuál Elegir en Aysén</h2>
-          <p class="text-gray-500 text-sm">Comparativa completa entre parcelas, lotes urbanos y campos agrícolas en Aysén. Ventajas y desventajas de cada opción.</p>
-        </a>
+        <p class="mt-4 text-sm leading-relaxed text-stone-400">Tu portal inmobiliario en la Patagonia Chilena. 16 localidades a lo largo de la Carretera Austral en la Región de Aysén.</p>
+      </div>
+      <div class="max-w-sm">
+        <p class="text-sm font-medium text-white">Recibe alertas de nuevas propiedades</p>
+        <form class="mt-3 flex gap-2" onsubmit="event.preventDefault()">
+          <div class="relative flex-1">
+            <svg class="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-stone-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"/></svg>
+            <input type="email" placeholder="Tu email" class="w-full rounded-lg border border-white/10 bg-white/5 py-2.5 pl-10 pr-3 text-sm text-white placeholder-stone-500 outline-none transition focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500">
+          </div>
+          <button type="submit" class="shrink-0 rounded-lg bg-emerald-600 px-4 py-2.5 text-sm font-medium text-white transition hover:bg-emerald-500">Suscribir</button>
+        </form>
       </div>
     </div>
-  </section>
-  </main>
-  <footer class="bg-[#14532D] text-white py-16">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-      <div class="md:col-span-2">
-        <h3 class="font-bold text-lg mb-3">Terrenos en Aysén SpA</h3>
-        <p class="text-gray-400 text-sm leading-relaxed mb-4">Av. Libertador Bernardo O'Higgins 345, Coyhaique, Aysén</p>
-        <p class="text-gray-400 text-sm">+56 9 8765 4321 | info@terrenosenaysen.cl</p>
-        <p class="text-gray-400 text-sm mt-1">Mo-Fr 09:00-19:00, Sa 10:00-14:00</p>
-      </div>
+    <div class="grid gap-8 pt-10 sm:grid-cols-2 lg:grid-cols-4">
       <div>
-        <h4 class="font-semibold text-sm mb-3 text-[#EAB308]">Servicios</h4>
-        <ul class="space-y-1">
-          <li><a href="/servicios/venta-terrenos-aysen" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Venta de Terrenos en Aysén</a></li>
-          <li><a href="/servicios/parcelas-en-aysen" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Parcelas en Venta en Aysén</a></li>
-          <li><a href="/servicios/lotes-urbanos-aysen" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Lotes Urbanos en Aysén</a></li>
-          <li><a href="/servicios/inversion-terrenos-patagonia" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Inversión en Terrenos Patagonia</a></li>
-          <li><a href="/servicios/terrenos-agricolas-aysen" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Terrenos Agrícolas en Aysén</a></li>
+        <h3 class="mb-4 text-xs font-semibold uppercase tracking-wider text-stone-500">Localidades</h3>
+        <ul class="space-y-2.5">
+          <li><a href="/localidades/coyhaique/" class="group/link flex items-center gap-2 text-sm text-stone-400 transition-colors hover:text-white"><svg class="size-3 text-stone-600 transition-colors group-hover/link:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>Coyhaique</a></li>
+          <li><a href="/localidades/puerto-aysen/" class="group/link flex items-center gap-2 text-sm text-stone-400 transition-colors hover:text-white"><svg class="size-3 text-stone-600 transition-colors group-hover/link:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>Puerto Aysén</a></li>
+          <li><a href="/localidades/chile-chico/" class="group/link flex items-center gap-2 text-sm text-stone-400 transition-colors hover:text-white"><svg class="size-3 text-stone-600 transition-colors group-hover/link:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>Chile Chico</a></li>
+          <li><a href="/localidades/cochrane/" class="group/link flex items-center gap-2 text-sm text-stone-400 transition-colors hover:text-white"><svg class="size-3 text-stone-600 transition-colors group-hover/link:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>Cochrane</a></li>
+          <li><a href="/localidades/futaleufu/" class="group/link flex items-center gap-2 text-sm text-stone-400 transition-colors hover:text-white"><svg class="size-3 text-stone-600 transition-colors group-hover/link:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>Futaleufú</a></li>
         </ul>
       </div>
       <div>
-        <h4 class="font-semibold text-sm mb-3 text-[#EAB308]">Ubicaciones</h4>
-        <ul class="space-y-1">
-          <li><a href="/ubicaciones/terrenos-coyhaique" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Coyhaique</a></li>
-          <li><a href="/ubicaciones/terrenos-puerto-aysen" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Puerto Aysén</a></li>
-          <li><a href="/ubicaciones/terrenos-chile-chico" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Chile Chico</a></li>
-          <li><a href="/ubicaciones/terrenos-cochrane" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Cochrane</a></li>
-          <li><a href="/ubicaciones/terrenos-rio-ibanez" class="text-gray-400 text-sm hover:text-white no-underline transition-colors">Río Ibáñez</a></li>
+        <h3 class="mb-4 text-xs font-semibold uppercase tracking-wider text-stone-500">Tipos de Propiedad</h3>
+        <ul class="space-y-2.5">
+          <li><a href="/venta/coyhaique/casas/" class="text-sm text-stone-400 transition-colors hover:text-white">Casas</a></li>
+          <li><a href="/venta/coyhaique/departamentos/" class="text-sm text-stone-400 transition-colors hover:text-white">Departamentos</a></li>
+          <li><a href="/venta/coyhaique/parcelas/" class="text-sm text-stone-400 transition-colors hover:text-white">Parcelas</a></li>
+          <li><a href="/venta/coyhaique/terrenos/" class="text-sm text-stone-400 transition-colors hover:text-white">Terrenos</a></li>
+          <li><a href="/venta/coyhaique/campos/" class="text-sm text-stone-400 transition-colors hover:text-white">Campos</a></li>
+          <li><a href="/venta/coyhaique/cabanas/" class="text-sm text-stone-400 transition-colors hover:text-white">Cabañas</a></li>
+          <li><a href="/venta/coyhaique/comercial/" class="text-sm text-stone-400 transition-colors hover:text-white">Comercial</a></li>
+          <li><a href="/venta/coyhaique/lodges/" class="text-sm text-stone-400 transition-colors hover:text-white">Lodges</a></li>
         </ul>
       </div>
+      <div>
+        <h3 class="mb-4 text-xs font-semibold uppercase tracking-wider text-stone-500">Recursos</h3>
+        <ul class="space-y-2.5">
+          <li><a href="/guia/" class="text-sm text-stone-400 transition-colors hover:text-white">Guías</a></li>
+          <li><a href="/blog/" class="text-sm text-stone-400 transition-colors hover:text-white">Blog</a></li>
+          <li><a href="/localidades/" class="text-sm text-stone-400 transition-colors hover:text-white">Localidades</a></li>
+          <li><a href="/publicar-propiedad/" class="text-sm text-stone-400 transition-colors hover:text-white">Publicar Propiedad</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="mb-4 text-xs font-semibold uppercase tracking-wider text-stone-500">Empresa</h3>
+        <ul class="space-y-2.5">
+          <li><a href="/nosotros/" class="text-sm text-stone-400 transition-colors hover:text-white">Nosotros</a></li>
+          <li><a href="/contacto/" class="text-sm text-stone-400 transition-colors hover:text-white">Contacto</a></li>
+        </ul>
+        <div class="mt-6 flex gap-3">
+          <a href="#" class="flex size-9 items-center justify-center rounded-lg bg-white/5 text-stone-500 transition-colors hover:bg-white/10 hover:text-white" aria-label="Instagram">
+            <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Zm1.5-4.87h.01"/></svg>
+          </a>
+          <a href="#" class="flex size-9 items-center justify-center rounded-lg bg-white/5 text-stone-500 transition-colors hover:bg-white/10 hover:text-white" aria-label="Facebook">
+            <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://wa.me/56987654321" class="flex size-9 items-center justify-center rounded-lg bg-white/5 text-stone-500 transition-colors hover:bg-white/10 hover:text-white" aria-label="WhatsApp">
+            <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-500 text-xs">
-      <p>&copy; 2026 Terrenos en Aysén SpA. Todos los derechos reservados.</p>
+    <div class="mt-10 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 sm:flex-row">
+      <p class="text-xs text-stone-600">&copy; 2026 Terrenos en Aysén. Todos los derechos reservados.</p>
+      <div class="flex gap-4 text-xs text-stone-600">
+        <a href="/terminos/" class="hover:text-stone-400">Términos</a>
+        <a href="/privacidad/" class="hover:text-stone-400">Privacidad</a>
+      </div>
     </div>
   </div>
 </footer>
-  <a href="https://wa.me/+56987654321?text=Hola%2C%20me%20interesa%20consultar%20sobre%20terrenos%20en%20Ays%C3%A9n" target="_blank" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition-colors no-underline" aria-label="WhatsApp">
-  <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-</a>
+<script is:inline>
+// Favorite button functionality
+function initFav(){document.querySelectorAll(".fav-btn").forEach(e=>{if(e.dataset.favInit)return;e.dataset.favInit="1";const s=e.dataset.slug??"",sl=e.dataset.saveLabel??"Guardado",sv=e.dataset.savedLabel??"Guardar";function d(){try{return JSON.parse(localStorage.getItem("ta_favorites")??"[]")}catch{return[]}}function u(t){localStorage.setItem("ta_favorites",JSON.stringify(t))}function o(t){e.classList.toggle("is-saved",t),e.setAttribute("aria-label",t?sv:sl),e.querySelector(".fav-icon")?.classList.toggle("text-rose-500",t)}o(d().includes(s)),e.addEventListener("click",t=>{t.preventDefault(),t.stopPropagation();const a=d(),c=a.indexOf(s);c>=0?(a.splice(c,1),o(!1)):(a.push(s),o(!0)),u(a)})})}
+document.readyState==="loading"?document.addEventListener("DOMContentLoaded",initFav):initFav();
+document.addEventListener("astro:page-load",initFav);
+</script>
+<script is:inline>
+// Gallery lightbox functionality
+let galleryIdx=0;function galleryNav(d){document.querySelectorAll(".property-gallery").forEach(g=>{const imgs=JSON.parse(g.dataset.images??"[]"),alts=JSON.parse(g.dataset.alts??"[]");if(!imgs.length)return;galleryIdx=(galleryIdx+d%imgs.length+imgs.length)%imgs.length;const lbImg=g.querySelector(".gallery-lightbox-img"),counter=g.querySelector(".gallery-counter"),mainImg=g.querySelector(".gallery-main-img");lbImg.style.opacity="0";const tmp=new Image;tmp.onload=()=>{lbImg.src=imgs[galleryIdx];lbImg.alt=alts[galleryIdx]||"";lbImg.style.opacity="1"};tmp.onerror=()=>{lbImg.src=imgs[galleryIdx];lbImg.style.opacity="0.5"};tmp.src=imgs[galleryIdx];if(counter)counter.textContent=galleryIdx+1+" / "+imgs.length;g.querySelectorAll(".gallery-lb-dot").forEach((dot,i)=>{dot.classList.toggle("bg-white",i===galleryIdx);dot.classList.toggle("scale-125",i===galleryIdx);dot.classList.toggle("bg-white/40",i!==galleryIdx)});if(mainImg)mainImg.src=imgs[galleryIdx]})}
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll(".property-gallery").forEach(g=>{const imgs=JSON.parse(g.dataset.images??"[]"),alts=JSON.parse(g.dataset.alts??"[]");if(!imgs.length)return;const lbImg=g.querySelector(".gallery-lightbox-img"),counter=g.querySelector(".gallery-counter"),dots=g.querySelector(".gallery-lb-dots"),lb=g.querySelector(".gallery-lightbox");if(imgs[0]&&lbImg){lbImg.src=imgs[0];lbImg.alt=alts[0]||""}if(counter)counter.textContent="1 / "+imgs.length;if(dots)imgs.forEach((_,i)=>{const dot=document.createElement("button");dot.className="gallery-lb-dot size-2 rounded-full bg-white/40 transition";dot.dataset.index=i;dot.addEventListener("click",()=>{galleryIdx=i;galleryNav(0)});dots.appendChild(dot)});const mainDiv=g.querySelector(".gallery-main");if(mainDiv)mainDiv.addEventListener("click",()=>{galleryIdx=0;lb?.classList.remove("hidden");document.body.style.overflow="hidden"});lb?.addEventListener("click",e=>{if(e.target===lb||e.target.classList.contains("gallery-lb-container")){lb.classList.add("hidden");document.body.style.overflow=""}})});document.addEventListener("keydown",e=>{const lb=document.querySelector(".gallery-lightbox");if(!lb||lb.classList.contains("hidden"))return;if(e.key==="Escape"){lb.classList.add("hidden");document.body.style.overflow=""}if(e.key==="ArrowLeft")galleryNav(-1);if(e.key==="ArrowRight")galleryNav(1)})});
+</script>
 </body>
-</html>
